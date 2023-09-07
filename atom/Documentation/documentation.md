@@ -12,8 +12,8 @@ Auf dem [Trello-Board](https://trello.com/b/6wlu6uA3/pawatom) finden Sie unser S
 ## Aufteilung der Arbeit
 Person | Aufgabe
 ------ | -------
-Ael    | Ursprung der Atomwaffen
-Ael    | Typen von Atomwaffen und ihre Zwecke
+Ael    | Manhattan-Projekt
+Ael    | Typen von Kernwaffen und ihre Zwecke
 Evan   | Folgen von Einschlag einer Atombombe
 Evan   | Unterschied zu normalen Waffen und Aufbau
 Yannick| Wer ist in besitz von Atomwaffen
