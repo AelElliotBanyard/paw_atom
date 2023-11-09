@@ -1,12 +1,13 @@
 import React from "react";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const Contact = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
+
 
     emailjs
       .sendForm(
@@ -18,13 +19,16 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log('message send')
-          alert('message send')
+          console.log("message send");
+          alert("message send");
         },
         (error) => {
           console.log(error.text);
         }
-      );
+      )
+      .finally(() => {
+        form.current.reset();
+      });
   };
   return (
     <div>
@@ -35,7 +39,7 @@ const Contact = () => {
             <div>
               <div>
                 <label>Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name"/>
               </div>
               <div>
                 <label>Email</label>
