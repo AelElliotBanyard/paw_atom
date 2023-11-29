@@ -1,10 +1,12 @@
-import './App.css';
+import React from 'react';
+import Tryout from './components/tryout';
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <div></div>
+      <Tryout/>
+    </>  
   );
 }
-
 export default App;
