@@ -18,11 +18,12 @@ const Section = ({ title, images, id, side, children }) => {
     >
       <div
         className={
-          "group w-2/3 h-1/2 bg-[#4C4C4C] bg-opacity-80 backdrop-blur-md p-4 mx-16 relative rounded-md " +
+          "group w-2/3 min-h-[50%] bg-[#4C4C4C] bg-opacity-80 backdrop-blur-md p-4 mx-16 relative rounded-md " +
           (side === "right" ? "hover:rounded-s-none" : "hover:rounded-e-none")
         }
       >
         <h1 className="font-bold text-2xl text-white">{title}</h1>
+        <br />
         <div>{children}</div>
         {images && <div
           id="sidething"
