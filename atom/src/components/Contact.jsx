@@ -1,13 +1,12 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useState } from "react";
 
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
 
     emailjs
       .sendForm(
