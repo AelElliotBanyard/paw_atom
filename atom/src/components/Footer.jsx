@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Tryout = () => {
+const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-8">
+    <footer className="bg-[#2c2c2cae] text-white p-8">
       <div className="container mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-between">
           <div>
@@ -32,4 +32,4 @@ const Tryout = () => {
   );
 };
 
-export default Tryout;
+export default Footer;

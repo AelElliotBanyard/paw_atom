@@ -1,4 +1,4 @@
-import Tryout from './components/tryout';
+import Footer from './components/Footer';
 import Contact from './components/Contact'
 import React from "react";
 import Navbar from "./components/Navbar";
@@ -204,7 +204,7 @@ function App() {
         </p>
       </Section>
       <Contact />   
-      <Tryout/>
+      <Footer/>
     </div>
   );
 }
