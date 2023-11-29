@@ -422,7 +422,12 @@ function App() {
       <div className="flex w-full justify-center items-center">
         <Contact />
       </div>
-      <button >
+      <button
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+        className="fixed bottom-5 right-5 z-50 p-5 bg-[#5c5c5cae] rounded-full shadow-xl"
+      >
         <MdOutlineKeyboardDoubleArrowUp />
       </button>
       <Tryout />
