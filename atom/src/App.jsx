@@ -1,4 +1,4 @@
-
+import Tryout from './components/tryout';
 import Contact from './components/Contact'
 import React from "react";
 import Navbar from "./components/Navbar";
@@ -203,9 +203,9 @@ function App() {
           insbesondere in Krisenzeiten.
         </p>
       </Section>
-      <Contact />
+      <Contact />   
+      <Tryout/>
     </div>
   );
 }
-
 export default App;
