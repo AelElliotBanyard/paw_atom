@@ -18,7 +18,7 @@ const Section = ({ title, images, id, side, children }) => {
     >
       <div
         className={
-          "group w-2/3 min-h-[50%] bg-[#4C4C4C] bg-opacity-80 backdrop-blur-md p-4 mx-16 relative rounded-md " +
+          "group w-2/3 min-h-[50%] bg-[#4C4C4C] bg-opacity-90 p-4 mx-16 relative rounded-md " +
           (side === "right" ? "hover:rounded-s-none" : "hover:rounded-e-none")
         }
         style={
@@ -34,7 +34,7 @@ const Section = ({ title, images, id, side, children }) => {
           <div
             id="sidething"
             className={
-              "h-full w-2/5 absolute top-0 bg-[#4C4C4C] bg-opacity-80 backdrop-blur-md p-4 scale-x-0 transition-transform group-hover:scale-x-100 " +
+              "h-full w-2/5 absolute top-0 bg-[#4C4C4C] bg-opacity-90 p-4 scale-x-0 transition-transform group-hover:scale-x-100 " +
               (side === "right"
                 ? " -left-[40%] rounded-s-md origin-right"
                 : "-right-[40%] rounded-e-md origin-left")
