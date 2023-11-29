@@ -3,12 +3,87 @@ import Contact from "./components/Contact";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 function App() {
   return (
-    <div className=" bg-main bg-center bg-cover bg-fixed w-screen min-h-screen p-10">
+    <div className=" bg-[#460106] w-screen min-h-screen p-10 box-border">
+      <div
+        style={{
+          perspective: "100px",
+          height: "100vh",
+          overflowX: "hidden",
+          overflowY: "hidden",
+          position: "fixed",
+          top: "0",
+          left: "50%",
+          right: "0",
+          bottom: "0",
+          marginLeft: "-1500px",
+        }}
+      >
+        <div
+          className="absolute top-0 bottom-0 left-0 right-0"
+          style={{ transform: "translateZ(-200px) scale(3)" }}
+        >
+          <img
+            src="https://i.pinimg.com/originals/24/4e/0a/244e0a05633ef1c998a6f29eec324824.jpg"
+            width="80%"
+            style={{ marginLeft: "550px" }}
+            className="absolute block bottom-0"
+          />
+        </div>
+
+        <div
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[300px]"
+          style={{ transform: "translateZ(-150px) scale(2.5)" }}
+        >
+          <img
+            src="https://i.ibb.co/L80XGs6/7136296-preview.png"
+            width="1000px"
+            height="500px"
+            style={{ marginLeft: "330px" }}
+            className="absolute block bottom-0"
+          />
+        </div>
+
+        <div
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[-100px]"
+          style={{ transform: "translateZ(-100px) scale(2)" }}
+        >
+          <img
+            src="https://www.pinclipart.com/picdir/big/416-4162959_2363-x-787-21-0-skyline-city-silhouette.png"
+            width="1400px"
+            height="500px"
+            style={{ marginLeft: "1300px" }}
+            className="absolute block bottom-0"
+          />
+        </div>
+
+        <div
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[100px]"
+          style={{ transform: "translateZ(-50px) scale(1.5)" }}
+        >
+          <img
+            src="https://i.ibb.co/56LMHtK/new-york-skyline-silhouette-png-6.png"
+            width="2000px"
+            height="650px"
+            style={{ marginLeft: "-150px" }}
+            className="absolute block bottom-0"
+          />
+        </div>
+
+        <div
+          className="absolute top-0 bottom-0 left-0 right-0 "
+          style={{ transform: "translateZ(-0px) scale(1)" }}
+        >
+          <img
+            src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true"
+            //style={{ marginBottom: "-140px" }}
+            className="absolute block bottom-0"
+          />
+        </div>
+      </div>
       <Navbar />
       <Section
         title="Manhattan-Projekt"
