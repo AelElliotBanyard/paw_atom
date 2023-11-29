@@ -24,7 +24,7 @@ const Section = ({ title, images, id, side, children }) => {
       >
         <h1 className="font-bold text-2xl text-white">{title}</h1>
         <div>{children}</div>
-        <div
+        {images && <div
           id="sidething"
           className={
             "h-full w-2/5 absolute top-0 bg-[#4C4C4C] bg-opacity-80 backdrop-blur-md p-4 scale-x-0 transition-transform group-hover:scale-x-100 " +
@@ -46,13 +46,13 @@ const Section = ({ title, images, id, side, children }) => {
                     alt="sample_file"
                     src={URL}
                     key={index}
-                    style={{ height: height, width: "auto" }}
+                    style={{ maxHeight: height, width: "auto" }}
                   />
                 </div>
               ))}
             </Carousel>
           </div>
-        </div>
+        </div>}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className=" bg-[#5c5c5cae] rounded backdrop-blur-md p-5 flex flex-row justify-evenly items-center overflow-x-hidden ">
       <a
         href="#manhatten"
-        className="relative group text-2xl text-white px-2 py-2 sm:hidden"
+        className="relative group text-2xl text-white px-2 py-2"
       >
         <span className="absolute bottom-0 left-0 top-0 w-0 rounded bg-white transition-all group-hover:w-full -z-10"></span>
         <span className="group-hover:text-black">Manhattan-Project</span>
