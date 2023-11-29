@@ -6,7 +6,7 @@ import Section from "./components/Section";
 
 function App() {
   return (
-    <div className=" bg-main bg-center bg-cover w-screen min-h-screen p-10">
+    <div className=" bg-main bg-center bg-cover bg-fixed w-screen min-h-screen p-10">
       <Navbar />
       <Section
         title="Manhattan-Projekt"
