@@ -1,3 +1,5 @@
+
+import Contact from './components/Contact'
 import React from "react";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
@@ -201,6 +203,7 @@ function App() {
           insbesondere in Krisenzeiten.
         </p>
       </Section>
+      <Contact />
     </div>
   );
 }
