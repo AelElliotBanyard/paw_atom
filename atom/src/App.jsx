@@ -422,7 +422,7 @@ function App() {
       <div className="flex w-full justify-center items-center">
         <Contact />
       </div>
-      <button onClick={}>
+      <button >
         <MdOutlineKeyboardDoubleArrowUp />
       </button>
       <Tryout />
