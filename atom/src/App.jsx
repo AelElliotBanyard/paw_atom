@@ -3,6 +3,8 @@ import Contact from "./components/Contact";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 function App() {
   return (
@@ -146,7 +148,6 @@ function App() {
           werde ich den Zustand der Nuklearstaaten beschreiben.
         </p>
       </Section>
-
       <Section
         title="Vereinigte Staaten"
         id=""
@@ -171,7 +172,6 @@ function App() {
           wahrscheinlicher eingesetzt zu werden.
         </p>
       </Section>
-
       <Section
         title="Russland"
         id=""
@@ -422,6 +422,9 @@ function App() {
       <div className="flex w-full justify-center items-center">
         <Contact />
       </div>
+      <button onClick={}>
+        <MdOutlineKeyboardDoubleArrowUp />
+      </button>
       <Tryout />
     </div>
   );

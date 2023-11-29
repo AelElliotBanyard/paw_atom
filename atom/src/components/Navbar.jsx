@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" bg-[#5c5c5cae] rounded backdrop-blur-md p-5 flex flex-row justify-evenly items-center overflow-x-hidden ">
+    <div className=" bg-[#5c5c5cae] rounded backdrop-blur-md p-5 flex flex-row justify-evenly items-center overflow-x-hidden shadow-purple-500 shadow-lg">
       <a
         href="#manhatten"
         className="relative group text-2xl text-white px-2 py-2"
