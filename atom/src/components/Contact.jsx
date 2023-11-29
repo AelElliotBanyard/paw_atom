@@ -37,8 +37,8 @@ const Contact = () => {
       });
   };
   return (
-    <div className="flex flex-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded w-1/3 text-white">
-      <h1 className="text-3xl">Kontakt</h1>
+    <div className="flex w-1/2 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white mb-32 shadow-purple-500 shadow-lg">
+      <h1 className="text-3xl pt-5">Kontakt</h1>
       <div>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10">
           <div className="flex flex-row gap-2">
@@ -61,7 +61,7 @@ const Contact = () => {
             name="message"
           />
 
-          <button type="submit" value="Send" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+          <button type="submit" value="Send" className="w-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             Senden
           </button>
         </form>

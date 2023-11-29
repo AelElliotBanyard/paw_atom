@@ -419,7 +419,9 @@ function App() {
           Spaltmaterials ihren kritischen Zustand.
         </p>
       </Section>
-      <Contact />
+      <div className="flex w-full justify-center items-center">
+        <Contact />
+      </div>
       <Tryout />
     </div>
   );
