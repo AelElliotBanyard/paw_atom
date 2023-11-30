@@ -1,4 +1,4 @@
-import Tryout from "./components/tryout";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
@@ -96,11 +96,18 @@ function App() {
           />
         </div>
         <div
-          className="h-[100vh] mt-[-20px] absolute top-full left-0 right-0 z-[60]"
+          className="h-[50vh] mt-[-20px] absolute top-full left-0 right-0 z-[60]"
           style={{
-            background: "linear-gradient(#2D112B, #460106)",
+            background: "linear-gradient(#2D112B, #BA1424)",
           }}
         ></div>
+        <div className="h-[100vh] mt-[calc(122vh)] absolute top-full left-0 right-0 z-[60]">
+          <img
+            src="https://media.istockphoto.com/id/1322437822/vector/burning-city-ruins-in-fire-destroyed-town-houses.jpg?b=1&s=170667a&w=0&k=20&c=sGnMVYl3NnURkwWtwnwEZ_JlQ5sEd78vVvfNjQ9MHeE="
+            alt="background"
+            className="absolute block bottom-0 w-full"
+          />
+        </div>
       </div>
       <Navbar />
       <Section
@@ -444,22 +451,40 @@ function App() {
           Gleichgewichts des Schreckens in den internationalen Beziehungen bei.
         </p>
       </Section>
-      <Section title="quellen" id="quellen" side="left">
-        
+      <Section
+        title="Unterschied zu normalen Waffen im Aufbau"
+        id="differenzen"
+        side="right"
+        images={[
+          "https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg",
+        ]}
+      >
+        <p className="text-white">
+          Jedem Menschen ist bewusst, dass eine Atomwaffen eine sehr grossen
+          Schaden anrichten kann. Doch was macht sie so zerstörerisch? Der
+          Aufbau einer Atomwaffe ist sehr komplex und besteht aus vielen
+          verschiedenen Komponenten. Eine Antom besteht aus einer Kugel aus
+          Plutonium-239 und aus einer Uran-235, in der sich eine Neutronenquelle
+          befindet. Die Kugel umgibt eine TNT schicht. Sobald das explodiert,
+          wird die Netronenquelle wirksam. Durch den Druck Explosion und das
+          Zusammendrücken der radioaktive Stoffen erreicht die Massedes
+          Spaltmaterials ihren kritischen Zustand.
+        </p>
       </Section>
-      
       <div className="flex w-full justify-center items-center">
         <Contact />
+      </div>
+      <div className="flex w-full justify-center items-center">
+        <Footer />
       </div>
       <button
         onClick={() => {
           window.scrollTo(0, 0);
         }}
-        className="fixed bottom-5 right-5 z-50 p-5 bg-[#5c5c5cae] rounded-full shadow-xl"
+        className="fixed bottom-5 right-5 z-50 p-5 bg-[#5c5c5cae] rounded-full shadow-xl text-white"
       >
         <MdOutlineKeyboardDoubleArrowUp />
       </button>
-      <Tryout />
     </div>
   );
 }
