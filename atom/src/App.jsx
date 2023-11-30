@@ -471,6 +471,7 @@ function App() {
           Spaltmaterials ihren kritischen Zustand.
         </p>
       </Section>
+      <Section id="quellen" title="Unsere Quellen" side="left"></Section>
       <div className="flex w-full justify-center items-center">
         <Contact />
       </div>
