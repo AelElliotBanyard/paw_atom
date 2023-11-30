@@ -31,7 +31,7 @@ function App() {
         }}
       >
         <div
-          className="absolute top-0 bottom-0 left-0 right-0"
+          className="absolute top-0 bottom-0 left-0 right-0 h-[100vh] z-10"
           style={{ transform: "translateZ(-200px) scale(3)" }}
         >
           <img
@@ -39,11 +39,12 @@ function App() {
             width="80%"
             style={{ marginLeft: "550px" }}
             className="absolute block bottom-0"
+            alt="background"
           />
         </div>
 
         <div
-          className="absolute top-0 bottom-0 left-0 right-0 mt-[300px]"
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[300px] z-20"
           style={{ transform: "translateZ(-150px) scale(2.5)" }}
         >
           <img
@@ -52,11 +53,12 @@ function App() {
             height="500px"
             style={{ marginLeft: "330px" }}
             className="absolute block bottom-0"
+            alt="background"
           />
         </div>
 
         <div
-          className="absolute top-0 bottom-0 left-0 right-0 mt-[-100px]"
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[-100px] z-30"
           style={{ transform: "translateZ(-100px) scale(2)" }}
         >
           <img
@@ -65,11 +67,12 @@ function App() {
             height="500px"
             style={{ marginLeft: "1300px" }}
             className="absolute block bottom-0"
+            alt="background"
           />
         </div>
 
         <div
-          className="absolute top-0 bottom-0 left-0 right-0 mt-[100px]"
+          className="absolute top-0 bottom-0 left-0 right-0 mt-[100px] z-40"
           style={{ transform: "translateZ(-50px) scale(1.5)" }}
         >
           <img
@@ -78,22 +81,24 @@ function App() {
             height="650px"
             style={{ marginLeft: "-150px" }}
             className="absolute block bottom-0"
+            alt="background"
           />
         </div>
 
         <div
-          className="absolute top-0 bottom-0 left-0 right-0 "
+          className="absolute top-0 bottom-0 left-0 right-0 z-50"
           style={{ transform: "translateZ(-0px) scale(1)" }}
         >
           <img
             src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true"
             className="absolute block bottom-0"
+            alt="background"
           />
         </div>
         <div
-          className="h-[8000px] mt-[-20px] absolute top-full left-0 right-0"
+          className="h-[100vh] mt-[-20px] absolute top-full left-0 right-0 z-[60]"
           style={{
-            background: " #2D112B",
+            background: "linear-gradient(#2D112B, #460106)",
           }}
         ></div>
       </div>
