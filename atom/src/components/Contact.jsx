@@ -1,14 +1,23 @@
 import React from "react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (username === "" || email === "" || message === "") {
+      toast.error("Bitte fülle alle Felder aus!", {
+        theme: "dark",
+      });
+    } else {
     emailjs
       .sendForm(
         "service_87i9r4l",
@@ -23,50 +32,75 @@ const Contact = () => {
           "Nachricht gesendet!",
           {
             theme: "dark",
-          },
-          (error) => {
+          })
+        }).catch((error) => {
             console.log(error.text);
             toast.error("Etwas ist schief gelaufen!", {
               theme: "dark",
             });
           }
-        );
-      })
+        )
       .finally(() => {
+        setEmail("");
+        setUsername("");
+        setMessage("");
         form.current.reset();
       });
+    }
   };
   return (
-    <div className="flex w-1/2 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white mb-32 shadow-purple-500 shadow-lg">
-      <h1 className="text-3xl pt-5">Kontakt</h1>
-      <div>
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10">
-          <div className="flex flex-row gap-2">
-            <input
+    <div className="w-screen flex justify-center items-center">
+      <div className="flex w-1/2 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white mb-32 shadow-purple-500 shadow-lg">
+        <h1 className="text-3xl pt-5">Kontakt</h1>
+        <div>
+          <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10">
+            <div className="flex flex-row gap-2">
+              <input
+                className=" bg-transparent border-b-2 border-white hover:border-purple-500 focus:outline-none"
+                placeholder="Name"
+                type="text"
+                name="user_name"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
+              <input
+                className=" bg-transparent border-b-2 border-white hover:border-purple-500 focus:outline-none"
+                placeholder="Email"
+                type="email"
+                name="user_email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+            <textarea
               className=" bg-transparent border-b-2 border-white hover:border-purple-500 focus:outline-none"
-              placeholder="Name"
-              type="text"
-              name="user_name"
+              placeholder="Nachricht"
+              name="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
-            <input
-              className=" bg-transparent border-b-2 border-white hover:border-purple-500 focus:outline-none"
-              placeholder="Email"
-              type="email"
-              name="user_email"
-            />
-          </div>
-          <textarea
-            className=" bg-transparent border-b-2 border-white hover:border-purple-500 focus:outline-none"
-            placeholder="Nachricht"
-            name="message"
-          />
-
-          <button type="submit" value="Send" className="w-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-            Senden
-          </button>
-        </form>
+            <button
+              type="submit"
+              value="Send"
+              className="w-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br  focus:outline-none shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-5"
+            >
+              Senden
+            </button>
+          </form>
+        </div>
       </div>
-      <ToastContainer className="absolute left-0 top-0" />
+      <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
     </div>
   );
 };
