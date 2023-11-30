@@ -7,7 +7,7 @@ const Section = ({ title, images, id, side, children }) => {
 
   useEffect(() => {
     setHeight(document.getElementById("sidething").offsetHeight - 32);
-  });
+  }, [setHeight]);
   return (
     <div
       id={id}
