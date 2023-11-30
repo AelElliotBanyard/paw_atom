@@ -1,14 +1,22 @@
 import Tryout from "./components/tryout";
 import Contact from "./components/Contact";
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 function App() {
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const parallax = document.getElementById("parallax");
+      let scrollPosition = window.scrollY;
+      parallax.scrollTo(0, scrollPosition * 0.1);
+    });
+  }, []);
   return (
     <div className=" bg-[#460106] w-screen min-h-screen p-10 box-border">
       <div
+        id="parallax"
         style={{
           perspective: "100px",
           height: "100vh",
@@ -79,10 +87,15 @@ function App() {
         >
           <img
             src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true"
-            //style={{ marginBottom: "-140px" }}
             className="absolute block bottom-0"
           />
         </div>
+        <div
+          className="h-[8000px] mt-[-20px] absolute top-full left-0 right-0"
+          style={{
+            background: " #2D112B",
+          }}
+        ></div>
       </div>
       <Navbar />
       <Section
