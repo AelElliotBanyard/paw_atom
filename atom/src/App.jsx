@@ -451,27 +451,110 @@ function App() {
           Gleichgewichts des Schreckens in den internationalen Beziehungen bei.
         </p>
       </Section>
-      <Section
-        title="Unterschied zu normalen Waffen im Aufbau"
-        id="differenzen"
-        side="right"
-        images={[
-          "https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg",
-        ]}
-      >
-        <p className="text-white">
-          Jedem Menschen ist bewusst, dass eine Atomwaffen eine sehr grossen
-          Schaden anrichten kann. Doch was macht sie so zerstörerisch? Der
-          Aufbau einer Atomwaffe ist sehr komplex und besteht aus vielen
-          verschiedenen Komponenten. Eine Antom besteht aus einer Kugel aus
-          Plutonium-239 und aus einer Uran-235, in der sich eine Neutronenquelle
-          befindet. Die Kugel umgibt eine TNT schicht. Sobald das explodiert,
-          wird die Netronenquelle wirksam. Durch den Druck Explosion und das
-          Zusammendrücken der radioaktive Stoffen erreicht die Massedes
-          Spaltmaterials ihren kritischen Zustand.
-        </p>
+      <Section id="quellen" title="Unsere Quellen" side="right">
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">Manhattan-Projekt</h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffe"
+            >
+              Wikipedia
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Typen von Kernwaffen und ihre Zwecke
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffe"
+            >
+              Wikipedia (Kernwaffe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Atombombe"
+            >
+              Wikipedia (Atombombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Wasserstoffbombe"
+            >
+              Wikipedia (Wasserstoffbombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Schmutzige_Bombe"
+            >
+              Wikipedia (Schmutzige Bombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Neutronenbombe"
+            >
+              Wikipedia (Neutronenbombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffentechnik#Kobaltbombe"
+            >
+              Wikipedia (Kobaltbombe)
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Folge von Einschlag einer Atombombe
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.icanw.de/fakten/auswirkungen/druckwelle-hitze-strahlung/"
+            >
+              ICANW
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Elektromagnetischer_Impuls"
+            >
+              Wikipedia
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Unterschied zu normalen Waffen im Aufbau
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.atomwaffena-z.info/wissen/atombombe/aufbau-einer-atomwaffe#:~:text=Bei%20einer%20Atombombe%20gibt%20es,umgebende%20Trinitrotoluol%20(TNT)%20explodiert."
+            >
+              Atomwaffen A-Z
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Wer ist in Besitz von Atomwaffen
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.ucsusa.org/nuclear-weapons/worldwide#:~:text=Nine%20countries%20possess%20nuclear%20weapons,is%20close%20to%2013%2C000%20weapons"
+            >
+              UCSUSA
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Politische Auswirkung der Atomwaffen
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.yourarticlelibrary.com/international-politics/impact-of-nuclear-weapons-on-international-relations/48526#:~:text=During%201945-90%20the%20nuclear,of%20terror%20in%20international%20relations."
+            >
+              yourarticlelibrary
+            </a>
+          </div>
+        </div>
       </Section>
-      <Section id="quellen" title="Unsere Quellen" side="left"></Section>
       <div className="flex w-full justify-center items-center">
         <Contact />
       </div>
