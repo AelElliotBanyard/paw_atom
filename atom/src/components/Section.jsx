@@ -23,8 +23,8 @@ const Section = ({ title, images, id, side, children }) => {
         }
         style={
           side === "right"
-            ? { boxShadow: "7px 10px 15px -3px rgba(168,85,247,0.75)" }
-            : { boxShadow: "-7px 10px 15px -3px rgba(168,85,247,0.75)" }
+            ? { boxShadow: "7px 10px 15px -3px rgba(239,68,68,0.75)" }
+            : { boxShadow: "-7px 10px 15px -3px rgba(239,68,68,0.75)" }
         }
       >
         <h1 className="font-bold text-2xl text-white">{title}</h1>
@@ -41,8 +41,8 @@ const Section = ({ title, images, id, side, children }) => {
             }
             style={
               side === "right"
-                ? { boxShadow: "-7px 10px 15px -3px rgba(168,85,247,0.75)" }
-                : { boxShadow: "7px 10px 15px -3px rgba(168,85,247,0.75)" }
+                ? { boxShadow: "-7px 10px 15px -3px rgba(239,68,68,0.75)" }
+                : { boxShadow: "7px 10px 15px -3px rgba(239,68,68,0.75)" }
             }
           >
             <div style={{ margin: "auto", maxHeight: "100%" }}>

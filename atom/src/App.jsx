@@ -1,4 +1,4 @@
-import Tryout from "./components/tryout";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
@@ -96,11 +96,18 @@ function App() {
           />
         </div>
         <div
-          className="h-[100vh] mt-[-20px] absolute top-full left-0 right-0 z-[60]"
+          className="h-[50vh] mt-[-20px] absolute top-full left-0 right-0 z-[60]"
           style={{
-            background: "linear-gradient(#2D112B, #460106)",
+            background: "linear-gradient(#2D112B, #BA1424)",
           }}
         ></div>
+        <div className="h-[100vh] mt-[calc(122vh)] absolute top-full left-0 right-0 z-[60]">
+          <img
+            src="https://media.istockphoto.com/id/1322437822/vector/burning-city-ruins-in-fire-destroyed-town-houses.jpg?b=1&s=170667a&w=0&k=20&c=sGnMVYl3NnURkwWtwnwEZ_JlQ5sEd78vVvfNjQ9MHeE="
+            alt="background"
+            className="absolute block bottom-0 w-full"
+          />
+        </div>
       </div>
       <Navbar />
       <Section
@@ -444,22 +451,124 @@ function App() {
           Gleichgewichts des Schreckens in den internationalen Beziehungen bei.
         </p>
       </Section>
-      <Section title="quellen" id="quellen" side="left">
-        
+      <Section id="quellen" title="Unsere Quellen" side="right">
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">Manhattan-Projekt</h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffe"
+            >
+              Wikipedia
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Typen von Kernwaffen und ihre Zwecke
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffe"
+            >
+              Wikipedia (Kernwaffe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Atombombe"
+            >
+              Wikipedia (Atombombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Wasserstoffbombe"
+            >
+              Wikipedia (Wasserstoffbombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Schmutzige_Bombe"
+            >
+              Wikipedia (Schmutzige Bombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Neutronenbombe"
+            >
+              Wikipedia (Neutronenbombe)
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Kernwaffentechnik#Kobaltbombe"
+            >
+              Wikipedia (Kobaltbombe)
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Folge von Einschlag einer Atombombe
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.icanw.de/fakten/auswirkungen/druckwelle-hitze-strahlung/"
+            >
+              ICANW
+            </a>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://de.wikipedia.org/wiki/Elektromagnetischer_Impuls"
+            >
+              Wikipedia
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Unterschied zu normalen Waffen im Aufbau
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.atomwaffena-z.info/wissen/atombombe/aufbau-einer-atomwaffe#:~:text=Bei%20einer%20Atombombe%20gibt%20es,umgebende%20Trinitrotoluol%20(TNT)%20explodiert."
+            >
+              Atomwaffen A-Z
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Wer ist in Besitz von Atomwaffen
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.ucsusa.org/nuclear-weapons/worldwide#:~:text=Nine%20countries%20possess%20nuclear%20weapons,is%20close%20to%2013%2C000%20weapons"
+            >
+              UCSUSA
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-white text-xl">
+              Politische Auswirkung der Atomwaffen
+            </h1>
+            <a
+              className="text-white hover:text-red-500"
+              href="https://www.yourarticlelibrary.com/international-politics/impact-of-nuclear-weapons-on-international-relations/48526#:~:text=During%201945-90%20the%20nuclear,of%20terror%20in%20international%20relations."
+            >
+              yourarticlelibrary
+            </a>
+          </div>
+        </div>
       </Section>
-      
       <div className="flex w-full justify-center items-center">
         <Contact />
+      </div>
+      <div className="flex w-full justify-center items-center">
+        <Footer />
       </div>
       <button
         onClick={() => {
           window.scrollTo(0, 0);
         }}
-        className="fixed bottom-5 right-5 z-50 p-5 bg-[#5c5c5cae] rounded-full shadow-xl"
+        className="fixed bottom-5 right-5 z-50 p-5 bg-[#5c5c5cae] rounded-full shadow-xl text-white"
       >
         <MdOutlineKeyboardDoubleArrowUp />
       </button>
-      <Tryout />
     </div>
   );
 }
