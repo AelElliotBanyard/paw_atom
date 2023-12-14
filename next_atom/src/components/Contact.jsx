@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -49,7 +50,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="w-screen flex justify-center items-center">
+    <div className="w-screen h-screen flex justify-center items-center">
       <div
         id="contact"
         className="flex w-1/2 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white mb-32 shadow-red-500 shadow-lg"
