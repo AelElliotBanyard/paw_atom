@@ -1,7 +1,10 @@
-import Image from 'next/image'
+import React from 'react'
+import Navigation from '../components/Navigation'
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <Navigation />
+    </div>
   )
 }
