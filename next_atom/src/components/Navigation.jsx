@@ -7,7 +7,7 @@ const Navigation = () => {
   const [showNav, setShowNav] = React.useState(false);
 
   return (
-    <div className="h-screen w-full flex justify-center items-center absolute z-30">
+    <div className={"h-screen w-full flex justify-center items-center absolute " + (showNav === true ? "z-30 " : "")}>
         <div className={" absolute top-0 right-0 transition-transform m-2 z-10 " + (showNav === true ? " rotate-90 " : " rotate-0")} onClick={(e) => setShowNav(!showNav)}>
           <TiThMenu size={48} />
         </div>
