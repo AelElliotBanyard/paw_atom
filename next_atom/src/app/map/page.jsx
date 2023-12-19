@@ -39,34 +39,31 @@ const page = () => {
         </div>
       </div>
       <div className=" grid grid-rows-3 grid-cols-3 h-[175vh] gap-4">
-        <div className=" flip-card">
+        <div className="flip-card">
           <div className="flip-card-inner">
-            <div class="flip-card-front">
+            <div className="flip-card-front">
               <img
                 src="/img/flag_usa.jpg"
                 alt="Flag USA"
-                className="w-full h-full object-fill rounded-md"
+                className="w-full h-full object-cover rounded-md"
               />
             </div>
             <div class="flip-card-back">
               <h2>Vereinigten Staaten von Amerika</h2>
               <p>
-                Die Vereinigten Staaten verfügen über ein nukleares Arsenal von
-                etwa 5.400 Kernwaffen, von denen 1.744 einsatzbereit und zur
-                Lieferung bereit sind. Diese Waffen sind auf U-Booten, in tiefen
-                Raketen-Silos und auf Luftwaffenstützpunkten untergebracht. Etwa
-                die Hälfte der einsatzbereiten Waffen befindet sich in einem
-                Zustand, in dem sie sehr schnell nach einem Befehl des
-                Präsidenten gestartet werden können. Dies betrifft hauptsächlich
-                die Interkontinentalraketen (ICBMs) in Silos und Raketen mit
-                ballistischen SLBMs auf U-Booten. ICBMs können innerhalb von
-                Minuten gestartet werden, SLBMs innerhalb von 15 Minuten. Die
-                zerstörerischen Fähigkeiten dieser Waffen variieren erheblich,
-                von extrem mächtigen Bomben bis hin zu kleineren
-                "Niedrig-Yield"-Waffen, die speziell entwickelt wurden, um
-                wahrscheinlicher eingesetzt zu werden.
+                Die Vereinigten Staaten besitzen etwa 5.400 Kernwaffen, wovon
+                1.744 einsatzbereit sind. Diese Waffen sind auf U-Booten, in
+                Raketen-Silos und auf Luftwaffenstützpunkten stationiert. Etwa
+                die Hälfte der einsatzbereiten Waffen kann schnell gestartet
+                werden, insbesondere Interkontinentalraketen (ICBMs) und
+                ballistische Raketen auf U-Booten. Die zerstörerischen
+                Fähigkeiten reichen von extrem mächtigen Bomben bis zu kleineren
+                "Niedrig-Yield"-Waffen, die für wahrscheinlichere Einsätze
+                entwickelt wurden.
               </p>
-              <p>Abbildung: Flagge USA</p>
+              <p>
+                <i>Abbildung: Flagge USA</i>
+              </p>
             </div>
           </div>
         </div>
@@ -82,23 +79,17 @@ const page = () => {
             <div class="flip-card-back">
               <h2>Russland</h2>
               <p>
-                Das russische Atomwaffenarsenal umfasst etwa 6.000 Sprengköpfe,
-                von denen 1.584 einsatzbereit sind. In Kombination mit den
-                Vereinigten Staaten besitzen diese beiden Länder mehr als 90
-                Prozent der weltweiten Atomwaffen. Die anhaltenden Spannungen
-                zwischen den USA und Russland haben dazu geführt, dass die
-                Abrüstung von Atomwaffen nur langsam voranschreitet. Es gibt
-                jedoch eine positive Entwicklung, da beide Nationen beschlossen
-                haben, ihren einzigen noch bestehenden bilateralen
-                Rüstungskontrollvertrag, "New START", zu verlängern. Russland
-                hat jedoch deutlich gemacht, dass weitere Reduzierungen nur
-                möglich sind, wenn auch die US-Raketenabwehrsysteme rechtlich
-                begrenzt werden. Ohne angemessene Kontrolle dieser Spannungen
-                besteht die Gefahr eines Wettrüstens und einer erhöhten
-                Wahrscheinlichkeit eines Atomkonflikts, insbesondere in
-                Krisenzeiten.
+                Russland verfügt über etwa 6.000 Atomwaffensprengköpfe, von
+                denen 1.584 einsatzbereit sind. Gemeinsam mit den Vereinigten
+                Staaten besitzen diese beiden Länder über 90 Prozent der
+                weltweiten Atomwaffen. Die Spannungen zwischen den USA und
+                Russland haben die Abrüstung nur langsam vorangebracht, obwohl
+                beide Nationen beschlossen haben, den bilateralen
+                Rüstungskontrollvertrag "New START" zu verlängern. Russland
+                betont jedoch, dass weitere Reduzierungen nur möglich sind, wenn
+                auch die US-Raketenabwehrsysteme begrenzt werden.
               </p>
-              <p>Abbildung: Flagge Russland</p>
+              <p><i>Abbildung: Flagge Russland</i></p>
             </div>
           </div>
         </div>
@@ -108,7 +99,7 @@ const page = () => {
               <img
                 src="/img/flag_cn.png"
                 alt="Flag China"
-                className="w-full h-full object-fill rounded-md"
+                className="w-full h-full object-cover rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -121,14 +112,12 @@ const page = () => {
                 einsatzbereit, da die meisten Sprengköpfe während Friedenszeiten
                 nicht mit den Raketen verbunden sind. Diese Vorgehensweise
                 unterstützt Chinas langjährige Politik des
-                "Kein-Erstschlag"-Nukleareinsatzes. Sowohl China als auch
-                Russland sind besorgt über die fortgesetzten US-Investitionen in
-                Erstschlagoptionen und Raketenabwehrsysteme. Experten aus beiden
-                Ländern haben gewarnt, dass diese Bedenken dazu führen könnten,
-                dass China die Anzahl und Qualität seiner Nuklearwaffen erhöht,
-                wenn keine diplomatischen Initiativen ergriffen werden.
+                "Kein-Erstschlag"-Nukleareinsatzes. Sowohl China und auch
+                Russland sind besorgt über die fortgesetzten Investitionen der
+                USA in Raketen. Dies könnte China und Russland dazu bringen
+                selbst mehr Investitionen zu tätigen.
               </p>
-              <p>Abbildung: Flagge China</p>
+              <p><i>Abbildung: Flagge China</i></p>
             </div>
           </div>
         </div>
@@ -155,7 +144,7 @@ const page = () => {
                 diese Obergrenze auf 260 Sprengköpfe zu erhöhen, was einer
                 Steigerung um mehr als 40 Prozent entspricht.
               </p>
-              <p>Abbildung: Flagge UK</p>
+              <p><i>Abbildung: Flagge UK</i></p>
             </div>
           </div>
         </div>
@@ -179,7 +168,7 @@ const page = () => {
                 Möglichkeit nicht aus, in "extremen Situationen legitimier
                 Selbstverteidigung" als Erster Kernwaffen einzusetzen.
               </p>
-              <p>Abbildung: Flagge Frankreich</p>
+              <p><i>Abbildung: Flagge Frankreich</i></p>
             </div>
           </div>
         </div>
@@ -195,21 +184,18 @@ const page = () => {
             <div className="flip-card-back">
               <h2>Nordkorea</h2>
               <p>
-                Nach dem Ende des Kalten Krieges geriet Nordkorea in
-                wirtschaftliche Turbulenzen. Um diplomatische Verhandlungsmacht
-                und Sicherheitszusagen zu erhalten, beschleunigte das Land sein
-                Atomprogramm, trotz wiederholter Versuche der USA, es zu
-                begrenzen. Heute besitzt Nordkorea genug nukleares Material für
-                30 bis 40 Atomkriegsköpfe und möglicherweise 10 bis 20
-                einsatzbereite Waffen. Das Land entwickelt auch weiterhin seine
-                Langstreckenraketenkapazitäten, was neue Herausforderungen für
-                Ostasien darstellt. Die Wiederaufnahme produktiver Gespräche mit
-                Nordkorea erfordert eine enge Koordination der USA mit ihren
-                asiatischen Verbündeten und China, obwohl dies angesichts der
-                verschlechterten Beziehungen zwischen den USA und China
-                schwieriger geworden ist.
+                Nach dem Kalten Krieg beschleunigte Nordkorea sein Atomprogramm,
+                um diplomatische Macht und Sicherheitszusagen zu erhalten. Das
+                Land besitzt nun genug nukleares Material für 30-40
+                Atomkriegsköpfe und möglicherweise 10-20 einsatzbereite Waffen.
+                Nordkorea entwickelt weiterhin Langstreckenraketen, was neue
+                Herausforderungen für Ostasien darstellt. Die Wiederaufnahme von
+                Gesprächen erfordert enge Koordination zwischen den USA,
+                asiatischen Verbündeten und China, obwohl dies aufgrund
+                verschlechterter Beziehungen zwischen den USA und China
+                schwierig ist.
               </p>
-              <p>Abbildung: Flagge Nordkorea</p>
+              <p><i>Abbildung: Flagge Nordkorea</i></p>
             </div>
           </div>
         </div>
@@ -235,7 +221,7 @@ const page = () => {
                 darstellen und die Wahrscheinlichkeit eines Wettrüstens erhöhen
                 könnten.
               </p>
-              <p>Abbildung: Flagge Indien</p>
+              <p><i>Abbildung: Flagge Indien</i></p>
             </div>
           </div>
         </div>
@@ -259,7 +245,7 @@ const page = () => {
                 Bedenken, dass Pakistan die Schwelle für den Einsatz dieser
                 Waffen senken könnte.
               </p>
-              <p>Abbildung: Flagge Pakistan</p>
+              <p><i>Abbildung: Flagge Pakistan</i></p>
             </div>
           </div>
         </div>
@@ -282,7 +268,7 @@ const page = () => {
                 die Nutzung von Kernenergie zu erwerben, die, wenn umgeleitet,
                 ihnen die Möglichkeit bieten könnte, Atomwaffen zu entwickeln.
               </p>
-              <p>Abbildung: Flagge Israel</p>
+              <p><i>Abbildung: Flagge Israel</i></p>
             </div>
           </div>
         </div>
