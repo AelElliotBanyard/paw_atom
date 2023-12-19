@@ -38,12 +38,12 @@ const page = () => {
           />
         </div>
       </div>
-      <div className=" grid grid-rows-3 grid-cols-3 h-[150vh] gap-4">
+      <div className=" grid grid-rows-3 grid-cols-3 h-[175vh] gap-4">
         <div className=" flip-card">
           <div className="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BkbWlzYzJiYXRjaDItbG9jOTc1MTU1NDktaW1hZ2VfNS5qcGc.jpg"
+                src="/img/flag_usa.jpg"
                 alt="Flag USA"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -66,6 +66,7 @@ const page = () => {
                 "Niedrig-Yield"-Waffen, die speziell entwickelt wurden, um
                 wahrscheinlicher eingesetzt zu werden.
               </p>
+              <p>Abbildung: Flagge USA</p>
             </div>
           </div>
         </div>
@@ -73,7 +74,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/4/40/Российский0_флаг1200px-Flag_of_Russia.png"
+                src="/img/flag_ru.png"
                 alt="Flag Russia"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -97,6 +98,7 @@ const page = () => {
                 Wahrscheinlichkeit eines Atomkonflikts, insbesondere in
                 Krisenzeiten.
               </p>
+              <p>Abbildung: Flagge Russland</p>
             </div>
           </div>
         </div>
@@ -104,7 +106,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1024px-China_Flag_-_Alternative.svg.png?20160821181037"
+                src="/img/flag_cn.png"
                 alt="Flag China"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -126,6 +128,7 @@ const page = () => {
                 dass China die Anzahl und Qualität seiner Nuklearwaffen erhöht,
                 wenn keine diplomatischen Initiativen ergriffen werden.
               </p>
+              <p>Abbildung: Flagge China</p>
             </div>
           </div>
         </div>
@@ -133,7 +136,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://www.publicdomainpictures.net/pictures/340000/nahled/national-flag-of-uk-the-united-kingdom-of-great-britain-and-no-1588673083tIa.jpg"
+                src="/img/flag_uk.jpg"
                 alt="Flag UK"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -152,6 +155,7 @@ const page = () => {
                 diese Obergrenze auf 260 Sprengköpfe zu erhöhen, was einer
                 Steigerung um mehr als 40 Prozent entspricht.
               </p>
+              <p>Abbildung: Flagge UK</p>
             </div>
           </div>
         </div>
@@ -159,7 +163,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_France_%28new%29.png"
+                src="/img/flag_fr.png"
                 alt="Flag France"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -175,6 +179,7 @@ const page = () => {
                 Möglichkeit nicht aus, in "extremen Situationen legitimier
                 Selbstverteidigung" als Erster Kernwaffen einzusetzen.
               </p>
+              <p>Abbildung: Flagge Frankreich</p>
             </div>
           </div>
         </div>
@@ -182,7 +187,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://cdn.britannica.com/47/1947-004-44F4E790/Flag-North-Korea.jpg"
+                src="/img/flag_kp.jpg"
                 alt="Flag North Korea"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -204,6 +209,7 @@ const page = () => {
                 verschlechterten Beziehungen zwischen den USA und China
                 schwieriger geworden ist.
               </p>
+              <p>Abbildung: Flagge Nordkorea</p>
             </div>
           </div>
         </div>
@@ -211,7 +217,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png"
+                src="/img/flag_in.png"
                 alt="Flag India"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -229,6 +235,7 @@ const page = () => {
                 darstellen und die Wahrscheinlichkeit eines Wettrüstens erhöhen
                 könnten.
               </p>
+              <p>Abbildung: Flagge Indien</p>
             </div>
           </div>
         </div>
@@ -236,7 +243,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg"
+                src="/img/flag_pk.jpg"
                 alt="Flag Pakistan"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -252,6 +259,7 @@ const page = () => {
                 Bedenken, dass Pakistan die Schwelle für den Einsatz dieser
                 Waffen senken könnte.
               </p>
+              <p>Abbildung: Flagge Pakistan</p>
             </div>
           </div>
         </div>
@@ -259,7 +267,7 @@ const page = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Israel_flag_300.png"
+                src="/img/flag_il.png"
                 alt="Flag Israel"
                 className="w-full h-full object-fill rounded-md"
               />
@@ -274,6 +282,7 @@ const page = () => {
                 die Nutzung von Kernenergie zu erwerben, die, wenn umgeleitet,
                 ihnen die Möglichkeit bieten könnte, Atomwaffen zu entwickeln.
               </p>
+              <p>Abbildung: Flagge Israel</p>
             </div>
           </div>
         </div>

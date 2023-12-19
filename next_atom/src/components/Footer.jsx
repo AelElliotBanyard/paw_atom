@@ -1,24 +1,21 @@
-import React from "react";
-
 const Footer = () => {
-  return (
-    <div className="relative w-full flex flex-col items-center shadow-[ -7px 10px 15px -3px rgba(239,68,68,0.75)]" >
-      <div className="bg-black bg-opacity-90 p-8 mx-0 w-full text-white relative z-10">
-        <div className="flex flex-row gap-4 justify-between">
-          
+    return (
+      <div className="relative w-full flex flex-col items-center shadow-lg">
+        <div className="bg-black bg-opacity-90 p-8 mx-0 w-full text-white relative">
+          <div className="flex flex-row gap-4 justify-between">
             <div>
-              <h3>About Us</h3>
+              <h3 className="font-bold">About Us</h3>
               <p>AEY</p>
               <p>darkshadystreet 4</p>
               <p>MysteriousCity 8321, Switzerlandia</p>
             </div>
             <div>
-              <h3>Contact</h3>
+              <h3 className="font-bold">Contact</h3>
               <p>Email: atom.aey.paw@gmail.com</p>
               <p>Phone: +41 123 45 67</p>
             </div>
             <div>
-              <h3>Legal</h3>
+              <h3 className="font-bold">Legal</h3>
               <ul>
                 <li>
                   <a
@@ -42,10 +39,10 @@ const Footer = () => {
           <div className="flex flex-row justify-start">
             <p>&copy; 2023 AEY Buddies. All rights reserved.</p>
           </div>
-        
+        </div>
       </div>
-    </div>
-  );
-};
-
-export default Footer;
+    );
+  };
+  
+  export default Footer;
+  
