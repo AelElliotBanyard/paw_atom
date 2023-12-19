@@ -50,9 +50,10 @@ const Contact = () => {
     }
   };
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center">
+      <img src="/img/explosion.jpg" className="absolute " />
       <div
-        className="flex w-5/6 h-5/6 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white shadow-red-500 shadow-lg"
+        className="flex w-5/6 h-5/6 self-center justify-center items-center gap-8 flex-col bg-transparent backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg"
       >
         <h1 className="text-3xl pt-5">Kontakt</h1>
         <div>
@@ -63,7 +64,7 @@ const Contact = () => {
           >
             <div className="flex flex-row gap-2">
               <input
-                className=" bg-transparent border-b-2 border-white hover:border-red-500 focus:outline-none"
+                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329]  focus:outline-none"
                 placeholder="Name"
                 type="text"
                 name="user_name"
@@ -71,7 +72,7 @@ const Contact = () => {
                 onChange={(e) => setUsername(e.target.value)}
               />
               <input
-                className=" bg-transparent border-b-2 border-white hover:border-red-500 focus:outline-none"
+                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329]  focus:outline-none"
                 placeholder="Email"
                 type="email"
                 name="user_email"
@@ -80,7 +81,7 @@ const Contact = () => {
               />
             </div>
             <textarea
-              className=" bg-transparent border-b-2 border-white hover:border-red-500 focus:outline-none"
+              className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none"
               placeholder="Nachricht"
               name="message"
               value={message}
@@ -89,7 +90,7 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="w-full text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-5 mb-5"
+              className="w-full text-white bg-gradient-to-r from-orange-400 via-orange-600  to-orange-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-5 mb-5"
             >
               Senden
             </button>
