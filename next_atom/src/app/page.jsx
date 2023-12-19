@@ -23,7 +23,7 @@ export default function Home() {
         </p>
       </div>
       <div className="w-full bg-white grid grid-cols-2 gap-3 p-5 h-full">
-        <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-black shadow-lg text-white first-letter:text-5xl first-letter:float-left ">
+        <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329]  shadow-lg text-white first-letter:text-5xl first-letter:float-left ">
           Das Manhattan-Projekt definiert den Beginn der Entwicklung atomarer
           Kernwaffen. Es handelte sich um ein militärisches Forschungs- und
           Entwicklungsprogramm, das während des Zweiten Weltkriegs von den
@@ -31,7 +31,7 @@ export default function Home() {
           und Kanada durchgeführt wurde. Die Initiation der Forschung erfolgte
           im Dezember 1942 unter der Leitung von General Leslie Groves.
         </p>
-        <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-black shadow-lg text-white first-letter:text-5xl first-letter:float-left">
+        <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329] shadow-lg text-white first-letter:text-5xl first-letter:float-left">
           Das Projekt wurde von den renommierten Physikern Robert Oppenheimer
           und Enrico Fermi geleitet. Am 16. Juli 1945 erfolgte der erste Test
           einer Atombombe in der Nähe von Alamogordo, New Mexico. Dies markierte

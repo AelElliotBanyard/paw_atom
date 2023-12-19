@@ -17,7 +17,7 @@ const page = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 text-white ">
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-black shadow-lg ">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
               Die erste unmittelbare Auswirkung eines Atombombeneinschlags ist
               die Druckwelle, die durch die immense Hitze der Explosion erzeugt
               wird. Diese Druckwelle hat das Potenzial, Gebäude und Strukturen
@@ -26,13 +26,13 @@ const page = () => {
               hinaus kann die Druckwelle auch zu erheblichen Gehörschäden
               führen.
             </p>
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-black shadow-lg">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
               Die Hitzestrahlung entsteht aufgrund der immensen Hitze, die
               während der Explosion freigesetzt wird. Sie kann lebensbedrohliche
               Verbrennungen bei Menschen verursachen und hat auch das Potenzial,
               Gebäude und andere Bauwerke durch Feuer zu zerstören.
             </p>
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-black shadow-lg">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
               Die Freisetzung von radioaktiver Strahlung erfolgt ebenfalls durch
               die Hitze während einer Explosion. Diese gefährliche Strahlung
               kann Menschen töten, indem sie ihre Zellen schädigt und das Risiko
@@ -40,7 +40,7 @@ const page = () => {
               menschliche DNA zu verändern, was zu schwerwiegenden
               gesundheitlichen Beeinträchtigungen führen kann.
             </p>
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-black shadow-lg">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
               Elektromagnetische Impulse entstehen aufgrund der extremen Hitze,
               die bei einer Explosion freigesetzt wird. Diese Impulse haben das
               Potenzial, elektronische Geräte zu zerstören und Stromausfälle zu

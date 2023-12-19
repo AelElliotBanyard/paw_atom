@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div className="w-screen h-screen flex justify-center items-center">
       <div
-        className="flex w-5/6 h-5/6 self-center justify-center items-center gap-8 flex-col bg-[#5c5c5cae] backdrop-blur-md rounded text-white shadow-red-500 shadow-lg"
+        className="flex w-5/6 h-5/6 self-center justify-center items-center gap-8 flex-col bg-transparent backdrop-blur-md rounded text-white shadow-red-500 shadow-lg"
       >
         <h1 className="text-3xl pt-5">Kontakt</h1>
         <div>
