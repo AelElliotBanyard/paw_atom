@@ -61,11 +61,33 @@ const page = () => {
         </p>
         <p>
           Implosionsdesign: {""}
-          <a href="https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg">https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg</a>
+          <a href="https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg">
+            https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg
+          </a>
         </p>
         <p>
           Grösse Der Waffen: {""}
-          <a href="https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg">https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg</a>
+          <a href="https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg">
+            https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg
+          </a>
+        </p>
+        <p>
+          Leslie Groves:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/3/37/Leslie_Groves.jpg">
+            https://upload.wikimedia.org/wikipedia/commons/3/37/Leslie_Groves.jpg
+          </a>
+        </p>
+        <p>
+          Oppenheimer:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/8/85/Oppenheimer_%28cropped%29.jpg">
+            https://upload.wikimedia.org/wikipedia/commons/8/85/Oppenheimer_%28cropped%29.jpg
+          </a>
+        </p>
+        <p>
+          Enrico Fermi:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/d/d4/Enrico_Fermi_1943-49.jpg">
+            https://upload.wikimedia.org/wikipedia/commons/d/d4/Enrico_Fermi_1943-49.jpg
+          </a>
         </p>
       </div>
     </div>
