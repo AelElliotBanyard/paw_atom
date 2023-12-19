@@ -29,12 +29,14 @@ Kernfusion beruht. Die Kernwaffen werden in zwei Kategorien unterteilt: Atombomb
 und Wasserstoffbomben. Die Atombombe ist eine Kernwaffe, die ihre Energie aus der
 Kernspaltung gewinnt. Die Wasserstoffbombe ist eine Kernwaffe, die ihre Energie aus
 der Kernfusion gewinnt. 
+
 Neben diesen beiden Kategorien gibt es noch die sogenannten schmutzigen Bomben.
 Diese sind keine Kernwaffen, sondern konventionelle Sprengsätze, die radioaktives
 Material enthalten. Die radioaktiven Stoffe werden durch die Explosion in die Umgebung
 verbreitet und verseuchen diese. Die schmutzigen Bomben sind keine Massenvernichtungswaffen,
 da sie keine große Zerstörungskraft haben. Sie sind aber trotzdem gefährlich, da sie
 die Umgebung verseuchen und so viele Menschen töten können.
+
 Neben diesen drei Kategorien gibt es noch die sogenannten Neutronenbomben. Diese
 Kernwaffen sind speziell dafür entwickelt worden, um Menschen zu töten, aber die
 Infrastruktur zu erhalten. Die Neutronenbomben sind eine spezielle Form der Atombombe.
@@ -42,6 +44,7 @@ Sie haben eine geringere Sprengkraft als die Atombomben, aber eine höhere Strah
 Die Neutronenbomben sind auch keine Massenvernichtungswaffen, da sie keine große
 Zerstörungskraft haben. Sie sind aber trotzdem gefährlich, da sie die Umgebung
 verseuchen und so viele Menschen töten können.
+
 Neben diesen vier Kategorien gibt es noch die Kobaltbombe. Diese Kernwaffe ist eine
 spezielle Form der Wasserstoffbombe. Sie ist eine Wasserstoffbombe, die mit Kobalt
 angereichert wurde. Die Kobaltbombe ist eine Massenvernichtungswaffe, da sie eine
