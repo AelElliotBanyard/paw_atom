@@ -38,14 +38,14 @@ const page = () => {
           />
         </div>
       </div>
-      <div className=" grid grid-rows-3 grid-cols-3 h-[150vh]">
+      <div className=" grid grid-rows-3 grid-cols-3 h-[150vh] gap-4">
         <div className=" flip-card">
           <div className="flip-card-inner">
             <div class="flip-card-front">
               <img
                 src="https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BkbWlzYzJiYXRjaDItbG9jOTc1MTU1NDktaW1hZ2VfNS5qcGc.jpg"
                 alt="Flag USA"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div class="flip-card-back">
@@ -75,7 +75,7 @@ const page = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/4/40/Российский0_флаг1200px-Flag_of_Russia.png"
                 alt="Flag Russia"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div class="flip-card-back">
@@ -106,7 +106,7 @@ const page = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1024px-China_Flag_-_Alternative.svg.png?20160821181037"
                 alt="Flag China"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -135,7 +135,7 @@ const page = () => {
               <img
                 src="https://www.publicdomainpictures.net/pictures/340000/nahled/national-flag-of-uk-the-united-kingdom-of-great-britain-and-no-1588673083tIa.jpg"
                 alt="Flag UK"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -161,7 +161,7 @@ const page = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_France_%28new%29.png"
                 alt="Flag France"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -184,7 +184,7 @@ const page = () => {
               <img
                 src="https://cdn.britannica.com/47/1947-004-44F4E790/Flag-North-Korea.jpg"
                 alt="Flag North Korea"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -213,7 +213,7 @@ const page = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png"
                 alt="Flag India"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -238,7 +238,7 @@ const page = () => {
               <img
                 src="https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg"
                 alt="Flag Pakistan"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">
@@ -261,7 +261,7 @@ const page = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Israel_flag_300.png"
                 alt="Flag Israel"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill rounded-md"
               />
             </div>
             <div className="flip-card-back">

@@ -42,16 +42,20 @@ body {
   }
   .flip-card-front,
   .flip-card-back {
-    @apply absolute w-full h-full;
+    @apply absolute w-full h-full rounded-md;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
 
   .flip-card-front {
-    @apply bg-gray-100 text-black;
+    @apply bg-gray-100 text-black rounded-md;
   }
   .flip-card-back {
-    @apply bg-gray-800 text-white;
+    @apply bg-gray-800 text-white p-5;
     transform: rotateY(180deg);
+  }
+
+  .flip-card-back > h2 {
+    @apply text-4xl pb-1;
   }
 }
