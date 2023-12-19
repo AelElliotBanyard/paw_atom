@@ -15,7 +15,7 @@ const Navigation = () => {
     >
       <div
         className={
-          " absolute top-0 right-0 transition-transform m-2 z-10 bg-gray-300 bg-opacity-20 rounded " +
+          " absolute top-0 right-0 transition-transform m-2 z-10 bg-black bg-opacity-20 rounded " +
           (showNav === true ? " rotate-90 " : " rotate-0")
         }
         onClick={(e) => setShowNav(!showNav)}
