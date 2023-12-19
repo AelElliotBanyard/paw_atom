@@ -25,7 +25,7 @@ const Navigation = () => {
 
       <div
         className={
-          " h-full flex justify-center items-center w-full backdrop-blur-md bg-gray-300 bg-opacity-50  transition-transform origin-top-right " +
+          " h-full flex justify-center items-center w-full backdrop-blur-md bg-black bg-opacity-50  transition-transform origin-top-right " +
           (showNav === true ? "scale-100" : " scale-0")
         }
       >

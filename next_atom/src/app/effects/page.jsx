@@ -49,9 +49,15 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-row pb-20 pt-10 bg-white">
-          <img src="/img/comparison.jpg" className="w-1/2" />
-          <img src="/img/comparison_2.jpg" className="w-1/2" />
+        <div className="flex flex-row w-full">
+          <div className="w-1/2 relative">
+            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Explosionsvergleich</p>
+            <img src="/img/comparison.jpg" className="h-full w-full" />
+          </div>
+          <div className="w-1/2 relative">
+            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Radiusvergleich </p>
+            <img src="/img/comparison_2.jpg" className="h-full w-full" />
+          </div>
         </div>
 
         <div className="bg-white text-black flex flex-col justify-center items-center gap-10 p-5">
