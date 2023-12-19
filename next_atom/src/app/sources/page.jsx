@@ -59,6 +59,14 @@ const page = () => {
             https://upload.wikimedia.org/wikipedia/commons/5/5c/Israel_flag_300.png
           </a>
         </p>
+        <p>
+          Implosionsdesign: {""}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg">https://upload.wikimedia.org/wikipedia/commons/f/fc/Implosionsdesign.svg</a>
+        </p>
+        <p>
+          Grösse Der Waffen: {""}
+          <a href="https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg">https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg</a>
+        </p>
       </div>
     </div>
   );

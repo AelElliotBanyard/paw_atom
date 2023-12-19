@@ -51,11 +51,11 @@ const page = () => {
 
         <div className="flex flex-row w-full">
           <div className="w-1/2 relative">
-            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Explosion Comparison</p>
+            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Explosionsvergleich</p>
             <img src="/img/comparison.jpg" className="h-full w-full" />
           </div>
           <div className="w-1/2 relative">
-            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Radius Comparison </p>
+            <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Radiusvergleich </p>
             <img src="/img/comparison_2.jpg" className="h-full w-full" />
           </div>
         </div>
