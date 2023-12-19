@@ -45,7 +45,7 @@ export default function Home() {
           Energy Commission ersetzt.
         </p>
       </div>
-      <div className="w-full flex flex-row">
+      <div className="w-full flex flex-row ">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/3/37/Leslie_Groves.jpg"
           alt=""
