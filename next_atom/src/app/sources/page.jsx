@@ -67,6 +67,14 @@ const page = () => {
           Grösse Der Waffen: {""}
           <a href="https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg">https://cdn10.picryl.com/photo/1987/01/01/a-graph-depicting-soviet-and-nato-longer-range-intermediate-range-nuclear-missiles-4e2c19-1024.jpg</a>
         </p>
+        <p>
+          Explosionsvergleich: {""}
+          <a href="https://pbs.twimg.com/media/FMVfj0QVQAsKJdw.jpg">https://pbs.twimg.com/media/FMVfj0QVQAsKJdw.jpg</a>
+        </p>
+        <p>
+          Radiusvergleich: {""}
+          <a href="https://www.aasc.ucla.edu/cab/imgContent/200708230003.jpg">https://www.aasc.ucla.edu/cab/imgContent/200708230003.jpg</a>
+        </p>
       </div>
     </div>
   );
