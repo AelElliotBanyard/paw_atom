@@ -46,21 +46,34 @@ export default function Home() {
         </p>
       </div>
       <div className="w-full flex flex-row ">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/3/37/Leslie_Groves.jpg"
-          alt=""
-          className="w-1/3 object-cover"
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/8/85/Oppenheimer_%28cropped%29.jpg"
-          alt=""
-          className="w-1/3 object-cover"
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Enrico_Fermi_1943-49.jpg"
-          alt=""
-          className="w-1/3 object-cover"
-        />
+        <div className="w-1/3 relative">
+          <p className="absolute bottom-1 right-1 text-white italic">
+            Abbildung: Leslie Groves
+          </p>
+          <img
+            src="/img/Leslie_Groves.jpg"
+            className="h-full"
+          />
+        </div>
+        <div className="w-1/3 relative">
+          <p className="absolute bottom-1 right-1 text-white italic">
+            Abbildung: Oppenheimer
+          </p>
+          <img
+            src="/img/Oppenheimer.jpg"
+            className="h-full"
+          />
+        </div>
+
+        <div className="w-1/3 relative">
+          <p className="absolute bottom-1 right-1 text-white italic">
+            Abbildung: Enrico Fermi
+          </p>
+          <img
+            src="/img/Enrico_Fermi.jpg"
+            className="h-full"
+          />
+        </div>
       </div>
     </div>
   );
