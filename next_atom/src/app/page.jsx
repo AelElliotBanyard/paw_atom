@@ -8,11 +8,11 @@ export default function Home() {
         <img
           src="https://images.news9live.com/wp-content/uploads/2023/08/atombomb.jpg?w=1200&enlarge=true"
           alt="Fat Man"
-          className="w-screen h-screen object-cover m-0 p-0 blur"
+          className="w-screen h-screen object-cover m-0 p-0"
         />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center bg-white rounded-md bg-opacity-30 p-5 gap-2 ">
-          <h1 className="text-6xl font-bold text-black tracking-wider">Atom</h1>
-          <h2 className="text-3xl text-black">Eine bombastische Webseite</h2>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center rounded-md p-10 text-white gap-2 backdrop-blur-md">
+          <h1 className=" text-8xl font-bold  tracking-wider">ATOM</h1>
+          <h2 className="text-3xl ">Eine bombastische Webseite</h2>
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center gap-2 bg-gray-300 py-16">
