@@ -51,7 +51,7 @@ body {
     @apply bg-gray-100 text-black rounded-md;
   }
   .flip-card-back {
-    @apply bg-gray-800 text-white p-5;
+    @apply bg-gray-800 text-white p-5 flex flex-col gap-2;
     transform: rotateY(180deg);
   }
 

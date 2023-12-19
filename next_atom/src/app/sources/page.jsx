@@ -11,6 +11,54 @@ const page = () => {
             https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BkbWlzYzJiYXRjaDItbG9jOTc1MTU1NDktaW1hZ2VfNS5qcGc.jpg
           </a>
         </p>
+        <p>
+          Flagge Russland:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/4/40/Российский0_флаг1200px-Flag_of_Russia.png">
+            https://upload.wikimedia.org/wikipedia/commons/4/40/Российский0_флаг1200px-Flag_of_Russia.png
+          </a>
+        </p>
+        <p>
+          Flagge China:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1024px-China_Flag_-_Alternative.svg.png?20160821181037">
+            https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/China_Flag_-_Alternative.svg/1024px-China_Flag_-_Alternative.svg.png?20160821181037
+          </a>
+        </p>
+        <p>
+          Flagge UK:{" "}
+          <a href="https://www.publicdomainpictures.net/pictures/340000/nahled/national-flag-of-uk-the-united-kingdom-of-great-britain-and-no-1588673083tIa.jpg">
+            https://www.publicdomainpictures.net/pictures/340000/nahled/national-flag-of-uk-the-united-kingdom-of-great-britain-and-no-1588673083tIa.jpg
+          </a>
+        </p>
+        <p>
+          Flagge Frankreich:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_France_%28new%29.png">
+            https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_France_%28new%29.png
+          </a>
+        </p>
+        <p>
+          Flagge Nordkorea:{" "}
+          <a href="https://cdn.britannica.com/47/1947-004-44F4E790/Flag-North-Korea.jpg">
+            https://cdn.britannica.com/47/1947-004-44F4E790/Flag-North-Korea.jpg
+          </a>
+        </p>
+        <p>
+          Flagge Indien:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png">
+            https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png
+          </a>
+        </p>
+        <p>
+          Flagge Pakistan:{" "}
+          <a href="https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg">
+            https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg
+          </a>
+        </p>
+        <p>
+          Flagge Israel:{" "}
+          <a href="https://upload.wikimedia.org/wikipedia/commons/5/5c/Israel_flag_300.png">
+            https://upload.wikimedia.org/wikipedia/commons/5/5c/Israel_flag_300.png
+          </a>
+        </p>
       </div>
     </div>
   );
