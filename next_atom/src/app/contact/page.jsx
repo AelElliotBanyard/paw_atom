@@ -51,11 +51,11 @@ const Contact = () => {
   };
   return (
     <div className="h-screen flex justify-center items-center">
-      <img src="/img/explosion.jpg" className="absolute " />
+      <img src="/img/explosion.jpg" className=" h-screen w-screen" />
       <div
-        className="flex w-5/6 h-5/6 self-center justify-center items-center gap-8 flex-col bg-transparent backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg"
+        className="flex w-5/6 h-5/6 self-center bg-black bg-opacity-50 justify-center items-center gap-8 flex-col backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg absolute"
       >
-        <h1 className="text-3xl pt-5">Kontakt</h1>
+        <h1 className="text-5xl">Kontakt</h1>
         <div>
           <form
             ref={form}
@@ -64,7 +64,7 @@ const Contact = () => {
           >
             <div className="flex flex-row gap-2">
               <input
-                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329]  focus:outline-none"
+                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none placeholder:text-gray-300"
                 placeholder="Name"
                 type="text"
                 name="user_name"
@@ -72,7 +72,7 @@ const Contact = () => {
                 onChange={(e) => setUsername(e.target.value)}
               />
               <input
-                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329]  focus:outline-none"
+                className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none placeholder:text-gray-300"
                 placeholder="Email"
                 type="email"
                 name="user_email"
@@ -81,7 +81,7 @@ const Contact = () => {
               />
             </div>
             <textarea
-              className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none"
+              className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none placeholder:text-gray-300"
               placeholder="Nachricht"
               name="message"
               value={message}
