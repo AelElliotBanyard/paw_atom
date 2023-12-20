@@ -208,17 +208,19 @@ const page = () => {
           </div>
           <div
             className={
-              "transition-transform origin-top " +
-              (showPic ? "scale-y-100" : "scale-y-0 h-0")
+              "transition-all origin-top max-h-screen " +
+              (showText ? "scale-y-100" : "scale-y-0 max-h-0")
             }
           >
-        <p>
-          <sup className="pr-2">
-            1
-          </sup>
-          <a className="text-blue-500 border-b border-b-blue-500" href="https://www.welt.de/geschichte/article205905099/Atombombe-So-entstand-die-Atomwaffe.html">
-            Vgl. ucsusa "Nuclear Weapons Worldwide"</a>
-        </p>
+            <p>
+              <sup className="pr-2">1</sup>
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://www.welt.de/geschichte/article205905099/Atombombe-So-entstand-die-Atomwaffe.html"
+              >
+                Vgl. ucsusa "Nuclear Weapons Worldwide"
+              </a>
+            </p>
           </div>
         </div>
       </div>
