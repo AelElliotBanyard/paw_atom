@@ -5,6 +5,12 @@ import { TiThMenu } from "react-icons/ti";
 
 const Navigation = () => {
   const [showNav, setShowNav] = React.useState(false);
+  const [burgerOpen, setBurgerOpen] = React.useState(false);
+
+  const toggleBurger = () => {
+    setBurgerOpen(!burgerOpen);
+    setShowNav(!showNav);
+  };
 
   return (
     <div
@@ -13,14 +19,39 @@ const Navigation = () => {
         (showNav === true ? " w-full h-screen z-30 " : "")
       }
     >
-      <div
+      {/* <div
         className={
           " absolute top-0 right-0 transition-transform m-2 z-10 bg-black bg-opacity-20 rounded " +
           (showNav === true ? " rotate-90 " : " rotate-0")
         }
+  
         onClick={(e) => setShowNav(!showNav)}
       >
         <TiThMenu size={48} />
+      </div> */}
+
+      <div
+        className="flex flex-col justify-center items-center absolute top-1.5 right-1 z-50 bg-black bg-opacity-20 p-2 rounded"
+        onClick={toggleBurger}
+      >
+        <span
+          className={
+            "bg-white block transition-all duration-300 ease-out h-1 w-6 rounded-sm " +
+            (burgerOpen ? "rotate-45 translate-y-1.5" : "-translate-y-0.5")
+          }
+        ></span>
+        <span
+          className={
+            "bg-white block transition-all duration-300 ease-out h-1 w-6 rounded-sm my-0.5 " +
+            (burgerOpen ? "opacity-0" : "opacity-100")
+          }
+        ></span>
+        <span
+          className={
+            "bg-white block transition-all duration-300 ease-out h-1 w-6 rounded-sm " +
+            (burgerOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-0.5")
+          }
+        ></span>
       </div>
 
       <div
