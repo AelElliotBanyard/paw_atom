@@ -56,7 +56,7 @@ const Navigation = () => {
             onClick={(e) => setShowNav(false)}
             href="/map"
           >
-            Karte
+            Besitzer
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"

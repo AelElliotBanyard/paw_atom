@@ -3,7 +3,8 @@ import React, { useEffect } from "react";
 import WorldMap from "react-svg-worldmap";
 
 const page = () => {
-  let size = Math.min(window.innerWidth, window.innerHeight) * 1.2;
+  let size = window.innerWidth > 500 ? Math.min(window.innerWidth, window.innerHeight) * 1.2 : 400;
+
 
   return (
     <div>
@@ -13,10 +14,10 @@ const page = () => {
           alt="Explosion"
           className="w-screen h-screen object-cover p-0 m-0"
         />
-        <div className="absolute top-0 left-0 w-full flex flex-col justify-center items-center backdrop-blur-md bg-black bg-opacity-50">
-          <h1 className="text-5xl font-bold tracking-wider pt-10 w-full text-center">
-            Karte
-          </h1>
+        <div className="absolute top-0 left-0 h-screen w-full flex flex-col justify-center items-center backdrop-blur-md bg-black bg-opacity-50">
+          <p className="text-5xl font-bold pt-10 w-full text-center">
+            Karte der Besitzer
+          </p>
           <WorldMap
             color="lightblue"
             backgroundColor="transparent"
@@ -38,7 +39,7 @@ const page = () => {
           />
         </div>
       </div>
-      <div className=" grid grid-rows-3 grid-cols-3 h-[175vh] gap-4">
+      <div className=" grid md:grid-rows-3 grid-cols-1 md:grid-cols-3 h-[425vh] md:h-[175vh] gap-4">
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
