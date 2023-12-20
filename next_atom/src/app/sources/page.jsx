@@ -218,7 +218,7 @@ const page = () => {
                 className="text-blue-500 border-b border-b-blue-500"
                 href="https://www.welt.de/geschichte/article205905099/Atombombe-So-entstand-die-Atomwaffe.html"
               >
-                Vgl. ucsusa "Nuclear Weapons Worldwide"
+                Vgl. Union of Concerned Scientists "Nuclear Weapons Worldwide"
               </a>
             </p>
           </div>
