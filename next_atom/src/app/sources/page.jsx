@@ -4,7 +4,8 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-main bg-fixed">
       <div className="p-10 bg-black bg-opacity-50 backdrop-blur-md w-2/3 break-words flex flex-col gap-4 mb-10 mt-10">
-        <p className="w-full text-center text-white text-5xl pb-10">Abbildungen</p>
+        <p className="w-full text-center text-white text-5xl pb-10">Quellen</p>
+        <p className="text-3xl ">Abbildungen</p>
         <p>
           Flagge USA: 
           <br />
