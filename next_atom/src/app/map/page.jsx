@@ -17,7 +17,7 @@ const page = () => {
           className="w-screen h-screen object-cover p-0 m-0"
         />
         <div className="absolute top-0 left-0 h-screen w-full flex flex-col justify-center items-center backdrop-blur-md bg-black bg-opacity-50">
-          <p className="text-5xl font-bold pt-10 w-full text-center">
+          <p className="md:text-6xl text-4xl font-bold pt-10 w-full text-center">
             Karte der Besitzer
           </p>
           <WorldMap

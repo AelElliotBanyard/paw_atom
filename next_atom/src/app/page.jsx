@@ -15,10 +15,10 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5">
-        <p className="w-full text-center text-black text-5xl">
+        <p className="w-full text-center text-black md:text-5xl text-3xl">
           Manhattan Project
         </p>
-        <p className="w-full text-center text-black text-3xl">
+        <p className="w-full text-center text-black md:text-3xl text-xl">
           Der Start der atomaren Kernwaffen
         </p>
       </div>

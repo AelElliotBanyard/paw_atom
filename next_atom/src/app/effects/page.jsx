@@ -4,14 +4,14 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <img src="/img/explosion.jpg" className="w-screen h-screen object-cover p-0 m-0" />
-      <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
+      <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
         Auswirkungen
       </p>
       <div className="w-full h-full flex flex-col">
         <div className="bg-white text-black flex flex-col justify-center items-center gap-10 p-5">
           <div className="flex flex-col justify-center items-center text-center gap-3">
-            <p className="text-5xl">Einschlag</p>
-            <p className="text-3xl">
+            <p className="text-3xl md:text-5xl text-center text-black">Einschlag</p>
+            <p className="text-xl md:text-3xl">
               Die vier Hauptkategorien der Auswirkungen eines
               Atombombeneinschlags
             </p>
@@ -62,7 +62,7 @@ const page = () => {
 
         <div className="bg-white text-black flex flex-col justify-center items-center gap-10 p-5">
           <div className="flex flex-col justify-center items-center text-center gap-3">
-            <p className="text-5xl">Politische Auswirkung</p>
+            <p className="text-3xl md:text-5xl text-center text-black">Politische Auswirkung</p>
             <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329] shadow-lg text-white">
               Die Entwicklung von Atomwaffen und das Monopol einiger Staaten
               darüber führten zur Entstehung einer nuklearen Hegemonie und der
