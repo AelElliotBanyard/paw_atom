@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <img src="/img/explosion.jpg" className="w-screen h-screen object-cover p-0 m-0" />
-      <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
+      <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
         Auswirkungen
       </p>
       <div className="w-full h-full flex flex-col">
@@ -16,7 +16,7 @@ const page = () => {
               Atombombeneinschlags
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 text-white ">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-8 text-white ">
             <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
               Die erste unmittelbare Auswirkung eines Atombombeneinschlags ist
               die Druckwelle, die durch die immense Hitze der Explosion erzeugt
@@ -49,12 +49,12 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-row w-full">
-          <div className="w-1/2 relative">
+        <div className="flex md:flex-row flex-col w-full">
+          <div className="md:w-1/2 w-full relative">
             <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Explosionsvergleich</p>
             <img src="/img/comparison.jpg" className="h-full w-full" />
           </div>
-          <div className="w-1/2 relative">
+          <div className="md:w-1/2 w-full relative">
             <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">Abbildung: Radiusvergleich </p>
             <img src="/img/comparison_2.jpg" className="h-full w-full" />
           </div>
@@ -72,7 +72,7 @@ const page = () => {
               Interessen in den internationalen Beziehungen zu sichern.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 text-white ">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-8 text-white ">
             <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
               Sie erhielten die Möglichkeit, die Bedrohung eines Atomkrieges
               einzusetzen, um ihre gewünschten Ziele in Beziehungen zu
