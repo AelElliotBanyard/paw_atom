@@ -5,10 +5,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 2]);
-  const scale2 = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <div className="h-screen">
+    <div>
       <motion.div
         style={{
           scaleY: scale,
@@ -25,10 +24,7 @@ export default function Home() {
           <h2 className="text-3xl text-center ">Eine bombastische Webseite</h2>
         </div>
       </motion.div>
-      <motion.div style={{
-        scaleY: scale2,
-        scaleX: scale2,
-      }} className="fixed top-0 left-0 w-screen">
+      <div className=" mt-[100vh]">
         <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5 sticky top-0">
           <p className="w-full text-center text-black md:text-5xl text-3xl">
             Manhattan Project
@@ -97,7 +93,7 @@ export default function Home() {
             </p>
           </motion.div>
         </div>
-        <div className="w-full flex md:flex-row flex-col bg-white sticky top-0 overflow-x-hidden">
+        <div className="w-full flex md:flex-row flex-col bg-white overflow-x-hidden sticky top-0">
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
@@ -136,7 +132,7 @@ export default function Home() {
                 },
               },
               offscreen: {
-                x: "-200%",
+                x: "-100%",
               },
             }}
             className="md:w-1/3 relative"
@@ -171,7 +167,7 @@ export default function Home() {
             <img src="/img/Enrico_Fermi.jpg" className="h-full" />
           </motion.div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
