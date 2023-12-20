@@ -4,7 +4,7 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <div className="relative">
+      <div className="sticky top-0">
         <img
           src="/img/explosion.jpg"
           className="w-screen h-screen object-cover m-0 p-0"
@@ -14,7 +14,7 @@ export default function Home() {
           <h2 className="text-3xl text-center ">Eine bombastische Webseite</h2>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5">
+      <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5 sticky top-0">
         <p className="w-full text-center text-black md:text-5xl text-3xl">
           Manhattan Project
         </p>
@@ -22,7 +22,7 @@ export default function Home() {
           Der Start der atomaren Kernwaffen
         </p>
       </div>
-      <div className="w-full bg-white grid md:grid-cols-2 grid-cols-1 gap-3 p-5 h-full">
+      <div className="w-full bg-white grid md:grid-cols-2 grid-cols-1 gap-3 p-5 h-full sticky top-0">
         <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329]  shadow-lg text-white first-letter:text-5xl first-letter:float-left ">
           Das Manhattan-Projekt definiert den Beginn der Entwicklung atomarer
           Kernwaffen. Es handelte sich um ein militärisches Forschungs- und

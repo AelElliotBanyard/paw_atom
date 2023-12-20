@@ -48,7 +48,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center sticky top-0">
       <img
         src="/img/explosion.jpg"
         className=" h-screen w-screen object-cover p-0 m-0"
