@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -19,50 +19,49 @@ const Contact = () => {
         theme: "dark",
       });
     } else {
-    emailjs
-      .sendForm(
-        "service_87i9r4l",
-        "template_uxc34a8",
-        form.current,
-        "Bajg88TbrAuaacBDa"
-      )
-      .then((result) => {
-        console.log(result.text);
-        console.log("message send");
-        toast.success(
-          "Nachricht gesendet!",
-          {
-            theme: "dark",
-          })
-        }).catch((error) => {
-            console.log(error.text);
-            toast.error("Etwas ist schief gelaufen!", {
-              theme: "dark",
-            });
-          }
+      emailjs
+        .sendForm(
+          "service_87i9r4l",
+          "template_uxc34a8",
+          form.current,
+          "Bajg88TbrAuaacBDa"
         )
-      .finally(() => {
-        setEmail("");
-        setUsername("");
-        setMessage("");
-        form.current.reset();
-      });
+        .then((result) => {
+          console.log(result.text);
+          console.log("message send");
+          toast.success("Nachricht gesendet!", {
+            theme: "dark",
+          });
+        })
+        .catch((error) => {
+          console.log(error.text);
+          toast.error("Etwas ist schief gelaufen!", {
+            theme: "dark",
+          });
+        })
+        .finally(() => {
+          setEmail("");
+          setUsername("");
+          setMessage("");
+          form.current.reset();
+        });
     }
   };
   return (
     <div className="h-screen flex justify-center items-center">
-      <img src="/img/explosion.jpg" className=" h-screen w-screen object-cover p-0 m-0" />
-      <div
-        className="flex w-5/6 h-5/6 self-center bg-black bg-opacity-50 justify-center items-center gap-8 flex-col backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg absolute"
-      >
-        <h1 className="text-5xl">Kontakt</h1>
+      <img
+        src="/img/explosion.jpg"
+        className=" h-screen w-screen object-cover p-0 m-0"
+      />
+      <div className="flex w-5/6 h-5/6 self-center bg-black bg-opacity-50 justify-center items-center gap-8 flex-col backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg absolute">
+        <p className="text-5xl">Kontakt</p>
         <div>
           <form
             ref={form}
             onSubmit={sendEmail}
             className="flex flex-col gap-10"
           >
-            <div className="flex flex-row gap-2">
+            <div className="flex md:flex-row md:gap-2 flex-col gap-4 ">
               <input
                 className=" bg-transparent border-b-2 border-white hover:border-[#CB5329] focus:outline-none placeholder:text-gray-300"
                 placeholder="Name"
