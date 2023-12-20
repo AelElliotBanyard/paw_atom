@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { TiThMenu } from "react-icons/ti";
 
 const Navigation = () => {
   const [showNav, setShowNav] = React.useState(false);
@@ -16,20 +15,9 @@ const Navigation = () => {
     <div
       className={
         " flex justify-center items-center fixed top-0 right-0 z-50 " +
-        (showNav === true ? " w-full h-screen z-30 " : "")
+        (showNav === true ? " w-full h-screen z-30 " : "w-6 h-6")
       }
     >
-      {/* <div
-        className={
-          " absolute top-0 right-0 transition-transform m-2 z-10 bg-black bg-opacity-20 rounded " +
-          (showNav === true ? " rotate-90 " : " rotate-0")
-        }
-  
-        onClick={(e) => setShowNav(!showNav)}
-      >
-        <TiThMenu size={48} />
-      </div> */}
-
       <div
         className="flex flex-col justify-center items-center absolute top-1.5 right-1 z-50 bg-black bg-opacity-20 p-2 rounded"
         onClick={toggleBurger}
@@ -63,42 +51,42 @@ const Navigation = () => {
         <div className=" md:w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/"
           >
             Startseite
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/nuc"
           >
             Kernwaffen
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/effects"
           >
             Auswirkungen
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/map"
           >
             Besitzer
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/contact"
           >
             Kontakt
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/sources"
           >
             Quellen

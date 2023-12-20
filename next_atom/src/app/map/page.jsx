@@ -10,7 +10,7 @@ const page = () => {
 
   return (
     <div>
-      <div className="h-screen relative">
+      <div className="h-screen sticky top-0">
         <img
           src="/img/explosion.jpg"
           alt="Explosion"
@@ -41,7 +41,7 @@ const page = () => {
           />
         </div>
       </div>
-      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4">
+      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4 sticky top-0 bg-black">
         <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2">
           <img
             src="/img/flag_usa.jpg"
