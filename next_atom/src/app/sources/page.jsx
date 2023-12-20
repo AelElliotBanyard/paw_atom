@@ -211,7 +211,15 @@ const page = () => {
               "transition-transform origin-top " +
               (showPic ? "scale-y-100" : "scale-y-0 h-0")
             }
-          ></div>
+          >
+        <p>
+          <sup className="pr-2">
+            1
+          </sup>
+          <a className="text-blue-500 border-b border-b-blue-500" href="https://www.welt.de/geschichte/article205905099/Atombombe-So-entstand-die-Atomwaffe.html">
+            Vgl. ucsusa "Nuclear Weapons Worldwide"</a>
+        </p>
+          </div>
         </div>
       </div>
     </div>
