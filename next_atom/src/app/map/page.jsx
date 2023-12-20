@@ -57,8 +57,9 @@ const page = () => {
               Hälfte der einsatzbereiten Waffen kann schnell gestartet werden,
               insbesondere Interkontinentalraketen (ICBMs) und ballistische
               Raketen auf U-Booten. Die zerstörerischen Fähigkeiten reichen von
-              extrem mächtigen Bomben bis zu kleineren "Niedrig-Yield"-Waffen,
-              die für wahrscheinlichere Einsätze entwickelt wurden.
+              extrem mächtigen Bomben bis zu kleineren "Low-yield"-Waffen, die
+              für wahrscheinlicher benutzt werden können, aufgrund ihrer
+              geringeren Zerstörungskraft.
             </p>
             <p>
               <i>Abbildung: Flagge USA</i>
@@ -84,6 +85,7 @@ const page = () => {
               Reduzierungen nur möglich sind, wenn auch die
               US-Raketenabwehrsysteme begrenzt werden.
             </p>
+
             <p>
               <i>Abbildung: Flagge Russland</i>
             </p>
@@ -135,7 +137,12 @@ const page = () => {
               das Vereinigte Königreich zuvor versprochen hatte, nicht mehr als
               maximal 180 Atomkriegköpfe zu haben, hat es angekündigt, diese
               Obergrenze auf 260 Sprengköpfe zu erhöhen, was einer Steigerung um
-              mehr als 40 Prozent entspricht.
+              mehr als 40 Prozent entspricht.{" "}
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge UK</i>
@@ -158,7 +165,12 @@ const page = () => {
               ist. Frankreich betrachtet seine Abschreckungsstrategie als strikt
               defensiv, schließt jedoch die Möglichkeit nicht aus, in "extremen
               Situationen legitimier Selbstverteidigung" als Erster Kernwaffen
-              einzusetzen.
+              einzusetzen.{" "}
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge Frankreich</i>
