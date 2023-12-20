@@ -11,7 +11,7 @@ export default function Home() {
         />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center rounded-md p-10 text-white gap-2 backdrop-blur-md">
           <h1 className=" text-8xl font-bold tracking-wider">ATOM</h1>
-          <h2 className="text-3xl ">Eine bombastische Webseite</h2>
+          <h2 className="text-3xl text-center ">Eine bombastische Webseite</h2>
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5">
@@ -22,7 +22,7 @@ export default function Home() {
           Der Start der atomaren Kernwaffen
         </p>
       </div>
-      <div className="w-full bg-white grid grid-cols-2 gap-3 p-5 h-full">
+      <div className="w-full bg-white grid md:grid-cols-2 grid-cols-1 gap-3 p-5 h-full">
         <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329]  shadow-lg text-white first-letter:text-5xl first-letter:float-left ">
           Das Manhattan-Projekt definiert den Beginn der Entwicklung atomarer
           Kernwaffen. Es handelte sich um ein militärisches Forschungs- und
@@ -45,8 +45,8 @@ export default function Home() {
           Energy Commission ersetzt.
         </p>
       </div>
-      <div className="w-full flex flex-row ">
-        <div className="w-1/3 relative">
+      <div className="w-full flex md:flex-row flex-col">
+        <div className="md:w-1/3 relative">
           <p className="absolute bottom-1 right-1 text-white italic">
             Abbildung: Leslie Groves
           </p>
@@ -55,7 +55,7 @@ export default function Home() {
             className="h-full"
           />
         </div>
-        <div className="w-1/3 relative">
+        <div className="md:w-1/3 relative">
           <p className="absolute bottom-1 right-1 text-white italic">
             Abbildung: Oppenheimer
           </p>
@@ -65,7 +65,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-1/3 relative">
+        <div className="md:w-1/3 relative">
           <p className="absolute bottom-1 right-1 text-white italic">
             Abbildung: Enrico Fermi
           </p>
