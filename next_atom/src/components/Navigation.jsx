@@ -63,42 +63,42 @@ const Navigation = () => {
         <div className=" md:w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/"
           >
             Startseite
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/nuc"
           >
             Kernwaffen
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/effects"
           >
             Auswirkungen
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/map"
           >
             Besitzer
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/contact"
           >
             Kontakt
           </Link>
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
-            onClick={(e) => setShowNav(false)}
+            onClick={toggleBurger}
             href="/sources"
           >
             Quellen
