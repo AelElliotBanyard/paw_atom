@@ -60,6 +60,11 @@ const page = () => {
               extrem mächtigen Bomben bis zu kleineren "Low-yield"-Waffen, die
               für wahrscheinlicher benutzt werden können, aufgrund ihrer
               geringeren Zerstörungskraft.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge USA</i>
@@ -84,6 +89,11 @@ const page = () => {
               START" zu verlängern. Russland betont jedoch, dass weitere
               Reduzierungen nur möglich sind, wenn auch die
               US-Raketenabwehrsysteme begrenzt werden.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
 
             <p>
@@ -112,6 +122,11 @@ const page = () => {
               sind besorgt über die fortgesetzten Investitionen der USA in
               Raketen. Dies könnte China und Russland dazu bringen selbst mehr
               Investitionen zu tätigen.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge China</i>
@@ -197,6 +212,11 @@ const page = () => {
               asiatischen Verbündeten und China, obwohl dies aufgrund
               verschlechterter Beziehungen zwischen den USA und China schwierig
               ist.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge Nordkorea</i>
@@ -221,6 +241,11 @@ const page = () => {
               seine Atomwaffen als Reaktion auf China zu modernisieren,
               zwangsläufig eine Bedrohung für Pakistan darstellen und die
               Wahrscheinlichkeit eines Wettrüstens erhöhen könnten.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge Indien</i>
@@ -244,6 +269,11 @@ const page = () => {
               von kurzreichweiten, "taktischen" Atomwaffen weckt jedoch
               Bedenken, dass Pakistan die Schwelle für den Einsatz dieser Waffen
               senken könnte.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge Pakistan</i>
@@ -266,6 +296,11 @@ const page = () => {
               nahegelegene Länder mehr Interesse daran haben, Technologie für
               die Nutzung von Kernenergie zu erwerben, die, wenn umgeleitet,
               ihnen die Möglichkeit bieten könnte, Atomwaffen zu entwickeln.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  1
+                </a>
+              </sup>
             </p>
             <p>
               <i>Abbildung: Flagge Israel</i>
