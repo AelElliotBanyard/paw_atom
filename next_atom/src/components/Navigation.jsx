@@ -29,7 +29,7 @@ const Navigation = () => {
           (showNav === true ? "scale-100" : " scale-0")
         }
       >
-        <div className=" w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
+        <div className=" md:w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
             onClick={(e) => setShowNav(false)}
