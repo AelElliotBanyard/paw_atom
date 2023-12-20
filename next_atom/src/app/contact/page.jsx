@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <div className="h-screen flex justify-center items-center sticky top-0">
       <img
-        src="/img/explosion.jpg"
+        src="/img/explosion_extended.jpg"
         className=" h-screen w-screen object-cover p-0 m-0"
       />
       <div className="flex w-5/6 h-5/6 self-center bg-black bg-opacity-50 justify-center items-center gap-8 flex-col backdrop-blur-md rounded text-white shadow-[#CB5329]  shadow-lg absolute">

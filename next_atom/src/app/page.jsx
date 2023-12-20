@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <div className="sticky top-0">
         <img
-          src="/img/explosion.jpg"
+          src="/img/explosion_extended.jpg"
           className="w-screen h-screen object-cover m-0 p-0"
         />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center rounded-md p-10 text-white gap-2 backdrop-blur-md">

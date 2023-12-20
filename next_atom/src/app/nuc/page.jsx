@@ -2,13 +2,13 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center ">
       <div className="sticky top-0">
         <img
-          src="/img/explosion.jpg"
+          src="/img/explosion_extended.jpg"
           className="w-screen object-cover p-0 m-0 h-screen"
         />
-        <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
+        <p className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
           Kernwaffen
         </p>
       </div>

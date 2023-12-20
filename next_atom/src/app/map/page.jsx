@@ -9,10 +9,10 @@ const page = () => {
       : 400;
 
   return (
-    <div>
+    <div className="">
       <div className="h-screen sticky top-0">
         <img
-          src="/img/explosion.jpg"
+          src="/img/explosion_extended.jpg"
           alt="Explosion"
           className="w-screen h-screen object-cover p-0 m-0"
         />
