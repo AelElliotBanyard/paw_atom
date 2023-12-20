@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <img src="/img/explosion.jpg" className="w-screen h-screen" />
+      <img src="/img/explosion.jpg" className="w-screen h-screen object-cover p-0 m-0" />
       <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl flex justify-center items-center font-bold backdrop-blur-lg p-10 rounded-md">
         Auswirkungen
       </p>

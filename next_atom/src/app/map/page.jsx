@@ -11,7 +11,7 @@ const page = () => {
         <img
           src="/img/explosion.jpg"
           alt="Explosion"
-          className="w-full h-full"
+          className="w-screen h-screen object-cover p-0 m-0"
         />
         <div className="absolute top-0 left-0 w-full flex flex-col justify-center items-center backdrop-blur-md bg-black bg-opacity-50">
           <h1 className="text-5xl font-bold tracking-wider pt-10 w-full text-center">
