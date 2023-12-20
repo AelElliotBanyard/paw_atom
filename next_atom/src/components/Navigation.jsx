@@ -7,7 +7,12 @@ const Navigation = () => {
   const [showNav, setShowNav] = React.useState(false);
 
   return (
-    <div className={"md:nav nav-sm " + (showNav ? "w-screen h-screen " : "")}>
+    <div
+      className={
+        " flex justify-center items-center fixed top-0 right-0 z-50 " +
+        (showNav === true ? " w-full h-screen z-30 " : "")
+      }
+    >
       <div
         className={
           " absolute top-0 right-0 transition-transform m-2 z-10 bg-black bg-opacity-20 rounded " +
@@ -20,11 +25,11 @@ const Navigation = () => {
 
       <div
         className={
-          " h-full flex justify-center items-center w-full backdrop-blur-md md:bg-black bg-transparent bg-opacity-50 transition-transform origin-top-right " +
+          " h-full flex justify-center items-center w-full backdrop-blur-md bg-black bg-opacity-50  transition-transform origin-top-right " +
           (showNav === true ? "scale-100" : " scale-0")
         }
       >
-        <div className=" md:w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
+        <div className=" w-1/3 flex flex-col justify-center items-center gap-10 text-3xl font-bold text-center">
           <Link
             className="hover:bg-[#DEAF58] hover:bg-opacity-50 hover:rounded p-2 w-full"
             onClick={(e) => setShowNav(false)}

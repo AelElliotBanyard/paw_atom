@@ -58,12 +58,4 @@ body {
   .flip-card-back > h2 {
     @apply text-4xl pb-1;
   }
-
-  .nav {
-    @apply flex justify-center items-center fixed top-0 right-0 z-50;
-  }
-
-  .nav-sm {
-    @apply bg-transparent bg-opacity-0 w-0 h-0;
-  }
 }
