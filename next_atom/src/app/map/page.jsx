@@ -1,18 +1,27 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import WorldMap from "react-svg-worldmap";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 const page = () => {
+  const { scrollYProgress } = useScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 2]);
   let size =
     window.innerWidth > 500
       ? Math.min(window.innerWidth, window.innerHeight) * 1.2
       : 400;
 
   return (
-    <div>
-      <div className="h-screen sticky top-0">
+    <div className="">
+      <motion.div
+        style={{
+          scaleY: scale,
+          scaleX: scale,
+        }}
+        className="fixed top-0 left-0 w-screen h-screen z-[-1]"
+      >
         <img
-          src="/img/explosion.jpg"
+          src="/img/explosion_extended.jpg"
           alt="Explosion"
           className="w-screen h-screen object-cover p-0 m-0"
         />
@@ -40,9 +49,26 @@ const page = () => {
             size={size}
           />
         </div>
-      </div>
-      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4 sticky top-0 bg-black">
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2">
+      </motion.div>
+      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4 sticky top-0 bg-black mt-[100vh] overflow-x-hidden">
+        <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
+              },
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2"
+        >
           <img
             src="/img/flag_usa.jpg"
             alt="Flag USA"
@@ -70,8 +96,23 @@ const page = () => {
               <i>Abbildung: Flagge USA</i>
             </p>
           </div>
-        </div>
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        </motion.div>
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "-100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_ru.png"
             alt="Flag Russia"
@@ -100,9 +141,26 @@ const page = () => {
               <i>Abbildung: Flagge Russland</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
+              },
+            },
+            offscreen: {
+              x: "100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_cn.png"
             alt="Flag China"
@@ -132,9 +190,24 @@ const page = () => {
               <i>Abbildung: Flagge China</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "-100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_uk.jpg"
             alt="Flag UK"
@@ -163,9 +236,24 @@ const page = () => {
               <i>Abbildung: Flagge UK</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "-100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_fr.png"
             alt="Flag France"
@@ -191,9 +279,24 @@ const page = () => {
               <i>Abbildung: Flagge Frankreich</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_kp.jpg"
             alt="Flag North Korea"
@@ -222,9 +325,24 @@ const page = () => {
               <i>Abbildung: Flagge Nordkorea</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "-100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_in.png"
             alt="Flag India"
@@ -251,9 +369,24 @@ const page = () => {
               <i>Abbildung: Flagge Indien</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "-100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_pk.jpg"
             alt="Flag Pakistan"
@@ -279,9 +412,24 @@ const page = () => {
               <i>Abbildung: Flagge Pakistan</i>
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={{
+              onscreen: {
+                x: 0,
+                transition: {
+                  type: "spring",
+                  bounce: 0.2,
+                  duration: 0.8,
+                },
+              },
+              offscreen: {
+                x: "100%",
+              },
+            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
           <img
             src="/img/flag_il.png"
             alt="Flag Israel"
@@ -306,7 +454,7 @@ const page = () => {
               <i>Abbildung: Flagge Israel</i>
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

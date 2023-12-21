@@ -8,7 +8,7 @@ const page = () => {
 
   return (
     <div className="flex flex-col justify-center min-h-screen items-center bg-main bg-center bg-fixed bg-cover">
-      <div className="p-10 bg-black bg-opacity-50 backdrop-blur-md w-2/3 break-words flex flex-col gap-4 mb-10 mt-10 shadow-[#CB5329] min-h-[66.67%] shadow-lg">
+      <div className="p-10 bg-black bg-opacity-50 backdrop-blur-md w-2/3 break-words flex flex-col gap-4 mb-10 mt-10 shadow-[#CB5329] shadow-lg">
         <p className="w-full text-center text-white text-4xl md:text-6xl pb-10">
           Quellen
         </p>
@@ -27,8 +27,8 @@ const page = () => {
           </div>
           <div
             className={
-              "transition-all origin-top duration-500 max-h-screen " +
-              (showPic ? "scale-y-100 " : "scale-y-0 max-h-0")
+              "transition-all origin-top duration-500 " +
+              (showPic ? "scale-y-100 max-h-[500vh] " : "scale-y-0 max-h-0")
             }
           >
             <p>
@@ -208,8 +208,8 @@ const page = () => {
           </div>
           <div
             className={
-              "transition-all origin-top max-h-screen " +
-              (showText ? "scale-y-100" : "scale-y-0 max-h-0")
+              "transition-all origin-top duration-500 " +
+              (showText ? "scale-y-100 max-h-[500vh]" : "scale-y-0 max-h-0")
             }
           >
             <p>
