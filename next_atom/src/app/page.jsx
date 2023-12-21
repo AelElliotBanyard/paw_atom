@@ -15,14 +15,21 @@ export default function Home() {
         }}
         className="fixed top-0 left-0 w-screen h-screen z-[-1]"
       >
-        <img
-          src="/img/explosion_extended.jpg"
-          className="w-screen h-screen object-cover m-0 p-0"
-        />
+        <video
+          className="m-0 p-0 object-cover h-screen w-screen"
+          autoPlay
+          muted
+          loop
+        >
+          <source src="/img/explosion.mp4" type="video/mp4" />
+        </video>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center rounded-md p-10 text-white gap-2 backdrop-blur-md">
           <h1 className=" text-8xl font-bold tracking-wider">ATOM</h1>
           <h2 className="text-3xl text-center ">Eine bombastische Webseite</h2>
         </div>
+        <p className="absolute bottom-2 right-2 md:right-6 text-white bg-black p-1 rounded bg-opacity-40 italic">
+          Abbildung: Video Startseite
+        </p>
       </motion.div>
       <div className=" mt-[100vh]">
         <div className="w-full flex flex-col justify-center items-center gap-2 bg-white p-5 sticky top-0">

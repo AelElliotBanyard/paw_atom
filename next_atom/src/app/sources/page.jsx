@@ -32,6 +32,16 @@ const page = () => {
             }
           >
             <p>
+              Video Startseite:
+              <br />
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://www.youtube.com/watch?v=5EF-s7frsZ0"
+              >
+                https://www.youtube.com/watch?v=5EF-s7frsZ0
+              </a>
+            </p>
+            <p>
               Flagge USA:
               <br />
               <a
