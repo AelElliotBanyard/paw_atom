@@ -216,9 +216,27 @@ const page = () => {
               <sup className="pr-2">1</sup>
               <a
                 className="text-blue-500 border-b border-b-blue-500"
-                href="https://www.welt.de/geschichte/article205905099/Atombombe-So-entstand-die-Atomwaffe.html"
+                href="https://www.ucsusa.org/nuclear-weapons/worldwide#:~:text=Nine%20countries%20possess%20nuclear%20weapons,is%20close%20to%2013%2C000%20weapons"
               >
                 Vgl. Union of Concerned Scientists "Nuclear Weapons Worldwide"
+              </a>
+            </p>
+            <p>
+              <sup className="pr-2">2</sup>
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://www.icanw.de/fakten/auswirkungen/druckwelle-hitze-strahlung/"
+              >
+                Vgl. ICAN "Druckwelle, Hitze und Strahlung"
+              </a>
+            </p>
+            <p>
+              <sup className="pr-2">3</sup>
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://www.yourarticlelibrary.com/international-politics/impact-of-nuclear-weapons-on-international-relations/48526#:~:text=During%201945-90%20the%20nuclear,of%20terror%20in%20international%20relations"
+              >
+                Vgl. YOURARTICLELIBRARY "Impact of Nuclear Weapons on International Relations"
               </a>
             </p>
           </div>

@@ -26,12 +26,22 @@ const page = () => {
           zerstören, und sie stellt eine unmittelbare Gefahr für Menschen dar,
           da sie sie gegen Wände oder Objekte schleudern kann. Darüber hinaus
           kann die Druckwelle auch zu erheblichen Gehörschäden führen.
+          <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  2
+                </a>
+              </sup>
         </p>
         <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
           Die Hitzestrahlung entsteht aufgrund der immensen Hitze, die während
           der Explosion freigesetzt wird. Sie kann lebensbedrohliche
           Verbrennungen bei Menschen verursachen und hat auch das Potenzial,
           Gebäude und andere Bauwerke durch Feuer zu zerstören.
+          <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  2
+                </a>
+              </sup>
         </p>
         <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
           Die Freisetzung von radioaktiver Strahlung erfolgt ebenfalls durch die
@@ -40,12 +50,22 @@ const page = () => {
           Krebs erhöht. Zusätzlich besitzt sie die Fähigkeit, menschliche DNA zu
           verändern, was zu schwerwiegenden gesundheitlichen Beeinträchtigungen
           führen kann.
+          <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  2
+                </a>
+              </sup>
         </p>
         <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
           Elektromagnetische Impulse entstehen aufgrund der extremen Hitze, die
           bei einer Explosion freigesetzt wird. Diese Impulse haben das
           Potenzial, elektronische Geräte zu zerstören und Stromausfälle zu
           verursachen.
+          <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  2
+                </a>
+              </sup>
         </p>
       </div>
 
@@ -75,6 +95,11 @@ const page = () => {
             Beziehungen. Die nuklearen Mächte erlangten die Fähigkeit, die
             "Bedrohung durch Atomwaffen" zu nutzen, um ihre nationalen
             Interessen in den internationalen Beziehungen zu sichern.
+            <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  3
+                </a>
+              </sup>
           </p>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-8 text-white sticky top-0 p-5 bg-white ">
@@ -87,6 +112,11 @@ const page = () => {
             Atomtechnologie erlangen. Sie entwickelten und erweiterten ständig
             ihre Atommacht und versuchten gleichzeitig immer, nicht-nuklearen
             Staaten dies im Namen des Weltfriedens zu verwehren.
+            <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  3
+                </a>
+              </sup>
           </p>
           <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
             Der Moskauer Teilabrüstungsvertrag (Partial Test Ban Treaty, PTBT),
@@ -96,6 +126,11 @@ const page = () => {
             Die Frage der nuklearen Verbreitung gegenüber der Nichtverbreitung
             wurde zu einem Hauptthema in den internationalen Beziehungen, und
             auch heute ist sie ein heiß diskutiertes Thema.
+            <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  3
+                </a>
+              </sup>
           </p>
           <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
             Die obige Darstellung zeigt deutlich, dass die Entstehung von
@@ -103,6 +138,11 @@ const page = () => {
             materiell beeinflusst hat. Die Atomwaffen waren dafür
             verantwortlich, dass das internationale System sich fast völlig von
             dem klassischen internationalen System unterschied.
+            <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  3
+                </a>
+              </sup>
           </p>
           <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
             Atomwaffen können jetzt legitim als der Hauptfaktor in den
@@ -113,6 +153,11 @@ const page = () => {
             problematischen sowie wenig erfolgreichen Übung. Sie trugen zur
             Schaffung eines Gleichgewichts des Schreckens in den internationalen
             Beziehungen bei.
+            <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  3
+                </a>
+              </sup>
           </p>
         </div>
     </div>
