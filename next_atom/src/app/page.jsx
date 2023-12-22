@@ -66,6 +66,11 @@ export default function Home() {
               Vereinigten Königreich und Kanada durchgeführt wurde. Die
               Initiation der Forschung erfolgte im Dezember 1942 unter der
               Leitung von General Leslie Groves.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  4
+                </a>
+              </sup>
             </p>
           </motion.div>
           <motion.div
@@ -97,6 +102,11 @@ export default function Home() {
               15. August 1945 erfolgte. Das Manhattan-Projekt war das erste
               Programm, das die Entwicklung von Kernwaffen vorantrieb und wurde
               später durch die United States Atomic Energy Commission ersetzt.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  4
+                </a>
+              </sup>
             </p>
           </motion.div>
         </div>

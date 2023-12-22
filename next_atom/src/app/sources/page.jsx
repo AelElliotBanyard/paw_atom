@@ -224,29 +224,106 @@ const page = () => {
           >
             <p>
               <sup className="pr-2">1</sup>
+              Union of Concerned Scientists "Nuclear Weapons Worldwide" Zugegriffen 26.Oktober 2023
               <a
                 className="text-blue-500 border-b border-b-blue-500"
                 href="https://www.ucsusa.org/nuclear-weapons/worldwide#:~:text=Nine%20countries%20possess%20nuclear%20weapons,is%20close%20to%2013%2C000%20weapons"
               >
-                Vgl. Union of Concerned Scientists "Nuclear Weapons Worldwide"
+               https://www.ucsusa.org/nuclear-weapons/worldwide#:~:text=Nine%20countries%20possess%20nuclear%20weapons,is%20close%20to%2013%2C000%20weapons
               </a>
             </p>
             <p>
               <sup className="pr-2">2</sup>
+              ICAN "Druckwelle, Hitze und Strahlung" Zugegriffen 26.Oktober 2023
               <a
                 className="text-blue-500 border-b border-b-blue-500"
                 href="https://www.icanw.de/fakten/auswirkungen/druckwelle-hitze-strahlung/"
               >
-                Vgl. ICAN "Druckwelle, Hitze und Strahlung"
+               https://www.icanw.de/fakten/auswirkungen/druckwelle-hitze-strahlung/
+              </a>
+            </p>
+            <p>
+              Wikipedia "Elektromagnetischer Impuls" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Elektromagnetischer_Impuls"
+              >
+               https://de.wikipedia.org/wiki/Elektromagnetischer_Impuls
               </a>
             </p>
             <p>
               <sup className="pr-2">3</sup>
+              YOURARTICLELIBRARY "Impact of Nuclear Weapons on International Relations" Zugegriffen 26.Oktober 2023
               <a
                 className="text-blue-500 border-b border-b-blue-500"
                 href="https://www.yourarticlelibrary.com/international-politics/impact-of-nuclear-weapons-on-international-relations/48526#:~:text=During%201945-90%20the%20nuclear,of%20terror%20in%20international%20relations"
               >
-                Vgl. YOURARTICLELIBRARY "Impact of Nuclear Weapons on International Relations"
+                 https://www.yourarticlelibrary.com/international-politics/impact-of-nuclear-weapons-on-international-relations/48526#:~:text=During%201945-90%20the%20nuclear,of%20terror%20in%20international%20relations
+              </a>
+            </p>
+            <p>
+              <sup className="pr-2">4</sup>
+              Wikipedia "Kernwaffen" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Kernwaffe"
+              >
+                 https://de.wikipedia.org/wiki/Kernwaffe
+              </a>
+            </p>
+            <p>
+              <sup className="pr-2">5</sup>
+              Wikipedia "Kernwaffe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Kernwaffe"
+              >
+                 https://de.wikipedia.org/wiki/Kernwaffe
+              </a>
+            </p>
+            <p>
+              Wikipedia "Atombombe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Atombombe"
+              >
+                 https://de.wikipedia.org/wiki/Atombombe
+              </a>
+            </p>
+            <p>
+              Wikipedia "Wasserstoffbombe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Wasserstoffbombe"
+              >
+                 https://de.wikipedia.org/wiki/Wasserstoffbombe
+              </a>
+            </p>
+            <p>
+              Wikipedia "Schmutzige Bombe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Schmutzige_Bombe"
+              >
+                 https://de.wikipedia.org/wiki/Schmutzige_Bombe
+              </a>
+            </p>
+            <p>
+              Wikipedia "Neutronenbombe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Neutronenbombe"
+              >
+                 https://de.wikipedia.org/wiki/Neutronenbombe
+              </a>
+            </p>
+            <p>
+              Wikipedia "Kobaltbombe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
+                href="https://de.wikipedia.org/wiki/Kernwaffentechnik#Kobaltbombe"
+              >
+                 https://de.wikipedia.org/wiki/Kernwaffentechnik#Kobaltbombe
               </a>
             </p>
           </div>
