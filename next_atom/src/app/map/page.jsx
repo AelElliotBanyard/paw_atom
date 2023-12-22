@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import WorldMap from "react-svg-worldmap";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -7,13 +7,13 @@ const page = () => {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 2]);
   let size = 0;
-  if (typeof window !== undefined) {
-    size = window.innerWidth > 500
-      ? Math.min(window.innerWidth, window.innerHeight) * 1.2
-      : 400;
-  } else {
-    size = 500;
-  }
+
+  useEffect(() => {
+    size =
+      window.innerWidth > 500
+        ? Math.min(window.innerWidth, window.innerHeight) * 1.2
+        : 400;
+  }, []);
 
   return (
     <div className="">
@@ -102,21 +102,23 @@ const page = () => {
           </div>
         </motion.div>
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "-100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_ru.png"
             alt="Flag Russia"
@@ -197,21 +199,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "-100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_uk.jpg"
             alt="Flag UK"
@@ -243,21 +247,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "-100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_fr.png"
             alt="Flag France"
@@ -286,21 +292,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_kp.jpg"
             alt="Flag North Korea"
@@ -332,21 +340,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "-100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_in.png"
             alt="Flag India"
@@ -376,21 +386,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "-100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "-100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_pk.jpg"
             alt="Flag Pakistan"
@@ -419,21 +431,23 @@ const page = () => {
         </motion.div>
 
         <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={{
-              onscreen: {
-                x: 0,
-                transition: {
-                  type: "spring",
-                  bounce: 0.2,
-                  duration: 0.8,
-                },
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={{
+            onscreen: {
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
               },
-              offscreen: {
-                x: "100%",
-              },
-            }} className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 ">
+            },
+            offscreen: {
+              x: "100%",
+            },
+          }}
+          className="w-full h-full bg-slate-800 rounded-md flex flex-col gap-2 "
+        >
           <img
             src="/img/flag_il.png"
             alt="Flag Israel"
