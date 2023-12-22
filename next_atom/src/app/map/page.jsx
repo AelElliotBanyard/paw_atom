@@ -6,10 +6,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const page = () => {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 2]);
-  let size =
-    window.innerWidth > 500
+  let size = 0;
+  if (typeof window !== undefined) {
+    size = window.innerWidth > 500
       ? Math.min(window.innerWidth, window.innerHeight) * 1.2
       : 400;
+  } else {
+    size = 500;
+  }
 
   return (
     <div className="">
