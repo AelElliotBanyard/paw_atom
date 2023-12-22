@@ -61,7 +61,7 @@ const page = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-full flex md:flex-row flex-col sticky top-0 bg-white overflow-x-hidden">
+      <div className="w-full flex md:flex-row flex-col sticky top-0 shadow-[#CB5329] shadow-lg bg-white overflow-x-hidden">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
@@ -80,7 +80,7 @@ const page = () => {
           }}
           className="relative w-full md:w-1/3"
         >
-          <p className="absolute bottom-1 right-1 text-white bg-black p-1 rounded bg-opacity-40 italic">
+          <p className="absolute bottom-1 right-1 text-white bg-black p-1 shadow-[#CB5329] shadow-lg rounded bg-opacity-40 italic">
             Abbildung: Implosionsdesign
           </p>
           <img src="/img/Implosionsdesign.svg" className="w-full" />
