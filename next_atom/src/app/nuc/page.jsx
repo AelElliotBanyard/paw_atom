@@ -25,7 +25,7 @@ const page = () => {
 
       <div className="flex flex-col justify-center items-center gap-10 bg-white p-5 sticky top-0 mt-[100vh]">
         <p className="text-3xl md:text-5xl text-center text-black">
-          Unteschied zu Normalen Waffen
+          Unterschied zu Normalen Waffen
         </p>
         <div className="flex flex-col justify-center items-center md:w-2/3 w-full gap-8 text-white overflow-x-hidden  ">
           <motion.div
@@ -52,6 +52,11 @@ const page = () => {
               Atombombe ist eine Kernwaffe, die ihre Energie aus der
               Kernspaltung gewinnt. Die Wasserstoffbombe ist eine Kernwaffe, die
               ihre Energie aus der Kernfusion gewinnt.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  5
+                </a>
+              </sup>
             </p>
           </motion.div>
         </div>
@@ -76,7 +81,7 @@ const page = () => {
           className="relative w-full md:w-1/3"
         >
           <p className="absolute bottom-1 right-1 text-white bg-black p-1  rounded bg-opacity-40 italic">
-            Abbildung: Imlosionsdesign
+            Abbildung: Implosionsdesign
           </p>
           <img src="/img/Implosionsdesign.svg" className="w-full" />
         </motion.div>
@@ -133,6 +138,11 @@ const page = () => {
               Atombombe ist eine Kernwaffe, die ihre Energie aus der
               Kernspaltung gewinnt. Die Wasserstoffbombe ist eine Kernwaffe, die
               ihre Energie aus der Kernfusion gewinnt.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  5
+                </a>
+              </sup>
             </p>
           </motion.div>
           <motion.div
@@ -162,6 +172,11 @@ const page = () => {
               Massenvernichtungswaffen, da sie keine große Zerstörungskraft
               haben. Sie sind aber trotzdem gefährlich, da sie die Umgebung
               verseuchen und so viele Menschen töten können.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  5
+                </a>
+              </sup>
             </p>
           </motion.div>
           <motion.div
@@ -191,6 +206,11 @@ const page = () => {
               Massenvernichtungswaffen, da sie keine große Zerstörungskraft
               haben. Sie sind aber trotzdem gefährlich, da sie die Umgebung
               verseuchen und so viele Menschen töten können.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  5
+                </a>
+              </sup>
             </p>
           </motion.div>
           <motion.div
@@ -216,6 +236,11 @@ const page = () => {
               eine Wasserstoffbombe, die mit Kobalt angereichert wurde. Die
               Kobaltbombe ist eine Massenvernichtungswaffe, da sie eine große
               Zerstörungskraft hat.
+              <sup>
+                <a href="/sources" className="text-blue-600 hover:underline">
+                  5
+                </a>
+              </sup>
             </p>
           </motion.div>
         </div>
