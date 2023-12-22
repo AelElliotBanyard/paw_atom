@@ -15,8 +15,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: "npm"
-    - run: npm ci --prefix ./atom/
-    - run: npm run build --prefix ./atom/
+    - run: npm ci --prefix ./next_atom/
+    - run: npm run build --prefix ./next_atom/
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -24,4 +24,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./atom/build/
+        local-dir: ./next_atom/build/
