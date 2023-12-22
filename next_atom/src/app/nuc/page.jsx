@@ -46,12 +46,15 @@ const page = () => {
             }}
           >
             <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
-              Der Begriff Kernwaffe bezeichnet eine Waffe, deren Wirkung auf der
-              Kernspaltung oder Kernfusion beruht. Die Kernwaffen werden in zwei
-              Kategorien unterteilt: Atombomben und Wasserstoffbomben. Die
-              Atombombe ist eine Kernwaffe, die ihre Energie aus der
-              Kernspaltung gewinnt. Die Wasserstoffbombe ist eine Kernwaffe, die
-              ihre Energie aus der Kernfusion gewinnt.
+              Jedem Menschen ist bewusst, dass eine Atomwaffen eine sehr grossen
+              Schaden anrichten kann. Doch was macht sie so zerstörerisch? Der
+              Aufbau einer Atomwaffe ist sehr komplex und besteht aus vielen
+              verschiedenen Komponenten. Eine Antom besteht aus einer Kugel aus
+              Plutonium-239 und aus einer Uran-235, in der sich eine
+              Neutronenquelle befindet. Die Kugel umgibt eine TNT schicht.
+              Sobald das explodiert, wird die Netronenquelle wirksam. Durch den
+              Druck Explosion und das Zusammendrücken der radioaktive Stoffen
+              erreicht die Massedes Spaltmaterials ihren kritischen Zustand.
               <sup>
                 <a href="/sources" className="text-blue-600 hover:underline">
                   5
@@ -140,7 +143,7 @@ const page = () => {
               ihre Energie aus der Kernfusion gewinnt.
               <sup>
                 <a href="/sources" className="text-blue-600 hover:underline">
-                  5
+                  6
                 </a>
               </sup>
             </p>
@@ -174,7 +177,7 @@ const page = () => {
               verseuchen und so viele Menschen töten können.
               <sup>
                 <a href="/sources" className="text-blue-600 hover:underline">
-                  5
+                  6
                 </a>
               </sup>
             </p>
@@ -208,7 +211,7 @@ const page = () => {
               verseuchen und so viele Menschen töten können.
               <sup>
                 <a href="/sources" className="text-blue-600 hover:underline">
-                  5
+                  6
                 </a>
               </sup>
             </p>
@@ -238,7 +241,7 @@ const page = () => {
               Zerstörungskraft hat.
               <sup>
                 <a href="/sources" className="text-blue-600 hover:underline">
-                  5
+                  6
                 </a>
               </sup>
             </p>

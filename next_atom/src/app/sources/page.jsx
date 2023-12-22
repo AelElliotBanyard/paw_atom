@@ -276,6 +276,16 @@ const page = () => {
               Wikipedia "Kernwaffe" Zugegriffen 26.Oktober 2023
               <a
                 className="text-blue-500 border-b border-b-blue-500"
+                href="https://www.atomwaffena-z.info/wissen/atombombe/aufbau-einer-atomwaffe#:~:text=Bei%20einer%20Atombombe%20gibt%20es,umgebende%20Trinitrotoluol%20(TNT)%20explodiert"
+              >
+                 https://www.atomwaffena-z.info/wissen/atombombe/aufbau-einer-atomwaffe#:~:text=Bei%20einer%20Atombombe%20gibt%20es,umgebende%20Trinitrotoluol%20(TNT)%20explodiert
+              </a>
+            </p>
+            <p>
+              <sup className="pr-2">6</sup>
+              Wikipedia "Kernwaffe" Zugegriffen 26.Oktober 2023
+              <a
+                className="text-blue-500 border-b border-b-blue-500"
                 href="https://de.wikipedia.org/wiki/Kernwaffe"
               >
                  https://de.wikipedia.org/wiki/Kernwaffe
