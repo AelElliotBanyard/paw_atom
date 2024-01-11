@@ -6,15 +6,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const page = () => {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 2]);
-  let size = 0;
-
-  useEffect(() => {
-    size =
-      window.innerWidth > 500
-        ? Math.min(window.innerWidth, window.innerHeight) * 1.2
-        : 400;
-  }, []);
-
   return (
     <div className="">
       <motion.div
@@ -50,11 +41,11 @@ const page = () => {
               { country: "pk", value: 170 },
               { country: "il", value: 100 },
             ]}
-            size={size}
+            size={400}
           />
         </div>
       </motion.div>
-      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4 sticky top-0 bg-black mt-[100vh] overflow-x-hidden">
+      <div className=" grid md:grid-rows-3 grid-rows-[9] grid-cols-1 md:grid-cols-3 gap-4 bg-black mt-[100vh] overflow-x-hidden">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
