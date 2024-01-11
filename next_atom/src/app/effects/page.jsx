@@ -47,7 +47,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Die erste unmittelbare Auswirkung eines Atombombeneinschlags ist die
             Druckwelle, die durch die immense Hitze der Explosion erzeugt wird.
             Diese Druckwelle hat das Potenzial, Gebäude und Strukturen zu
@@ -78,7 +78,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Die Hitzestrahlung entsteht aufgrund der immensen Hitze, die während
             der Explosion freigesetzt wird. Sie kann lebensbedrohliche
             Verbrennungen bei Menschen verursachen und hat auch das Potenzial,
@@ -107,7 +107,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Die Freisetzung von radioaktiver Strahlung erfolgt ebenfalls durch
             die Hitze während einer Explosion. Diese gefährliche Strahlung kann
             Menschen töten, indem sie ihre Zellen schädigt und das Risiko für
@@ -137,7 +137,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329]  shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Elektromagnetische Impulse entstehen aufgrund der extremen Hitze,
             die bei einer Explosion freigesetzt wird. Diese Impulse haben das
             Potenzial, elektronische Geräte zu zerstören und Stromausfälle zu
@@ -221,7 +221,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full shadow-[#CB5329] shadow-lg text-white">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full text-white">
             Die Entwicklung von Atomwaffen und das Monopol einiger Staaten
             darüber führten zur Entstehung einer nuklearen Hegemonie und der
             Bedrohung durch nukleare Erpressung in den internationalen
@@ -254,7 +254,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Sie erhielten die Möglichkeit, die Bedrohung eines Atomkrieges
             einzusetzen, um ihre gewünschten Ziele in Beziehungen zu
             nicht-nuklearen Staaten zu erreichen. Darüber hinaus zwang sie dies
@@ -287,7 +287,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Der Moskauer Teilabrüstungsvertrag (Partial Test Ban Treaty, PTBT),
             der Nichtverbreitungsvertrag (NPT) und der Vertrag über das
             umfassende Verbot von Nuklearversuchen (Comprehensive Test Ban
@@ -319,7 +319,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Die obige Darstellung zeigt deutlich, dass die Entstehung von
             Atomwaffen die Natur und den Inhalt der internationalen Beziehungen
             materiell beeinflusst hat. Die Atomwaffen waren dafür
@@ -349,7 +349,7 @@ const page = () => {
             },
           }}
         >
-          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+          <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
             Atomwaffen können jetzt legitim als der Hauptfaktor in den
             internationalen Beziehungen bezeichnet werden. Während der Zeit von
             1945 bis 1990 beeinflussten Atomwaffen die Politik des Kalten

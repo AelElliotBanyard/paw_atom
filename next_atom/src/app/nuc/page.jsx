@@ -46,7 +46,7 @@ const page = () => {
               },
             }}
           >
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left">
               Jedem Menschen ist bewusst, dass eine Atomwaffen eine sehr grossen
               Schaden anrichten kann. Doch was macht sie so zerstörerisch? Der
               Aufbau einer Atomwaffe ist sehr komplex und besteht aus vielen
@@ -65,7 +65,7 @@ const page = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-full flex md:flex-row flex-col sticky top-0 shadow-[#CB5329] shadow-lg bg-white overflow-x-hidden">
+      <div className="w-full flex md:flex-row flex-col sticky top-0 bg-white overflow-x-hidden">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
@@ -135,7 +135,7 @@ const page = () => {
               },
             }}
           >
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg m-2">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left m-2">
               Der Begriff Kernwaffe bezeichnet eine Waffe, deren Wirkung auf der
               Kernspaltung oder Kernfusion beruht. Die Kernwaffen werden in zwei
               Kategorien unterteilt: Atombomben und Wasserstoffbomben. Die
@@ -166,7 +166,7 @@ const page = () => {
               },
             }}
           >
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg m-2">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left m-2">
               Sie erhielten die Möglichkeit, die Bedrohung eines Atomkrieges
               Neben diesen beiden Kategorien gibt es noch die sogenannten
               schmutzigen Bomben. Diese sind keine Kernwaffen, sondern
@@ -200,7 +200,7 @@ const page = () => {
               },
             }}
           >
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg m-2">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left m-2">
               Neben diesen drei Kategorien gibt es noch die sogenannten
               Neutronenbomben. Diese Kernwaffen sind speziell dafür entwickelt
               worden, um Menschen zu töten, aber die Infrastruktur zu erhalten.
@@ -234,7 +234,7 @@ const page = () => {
               },
             }}
           >
-            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left shadow-[#CB5329] shadow-lg m-2">
+            <p className="bg-black rounded p-4 bg-opacity-80 h-full first-letter:text-5xl first-letter:float-left m-2">
               Neben diesen vier Kategorien gibt es noch die Kobaltbombe. Diese
               Kernwaffe ist eine spezielle Form der Wasserstoffbombe. Sie ist
               eine Wasserstoffbombe, die mit Kobalt angereichert wurde. Die
