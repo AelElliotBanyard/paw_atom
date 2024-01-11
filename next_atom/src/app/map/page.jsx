@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import WorldMap from "react-svg-worldmap";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 const page = () => {
   const { scrollYProgress } = useScroll();
