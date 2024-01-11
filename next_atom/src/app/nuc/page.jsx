@@ -56,9 +56,9 @@ const page = () => {
               Druck Explosion und das Zusammendrücken der radioaktive Stoffen
               erreicht die Massedes Spaltmaterials ihren kritischen Zustand.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   5
-                </a>
+                </Link>
               </sup>
             </p>
           </motion.div>
@@ -142,9 +142,9 @@ const page = () => {
               Kernspaltung gewinnt. Die Wasserstoffbombe ist eine Kernwaffe, die
               ihre Energie aus der Kernfusion gewinnt.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   6
-                </a>
+                </Link>
               </sup>
             </p>
           </motion.div>
@@ -176,9 +176,9 @@ const page = () => {
               haben. Sie sind aber trotzdem gefährlich, da sie die Umgebung
               verseuchen und so viele Menschen töten können.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   6
-                </a>
+                </Link>
               </sup>
             </p>
           </motion.div>
@@ -210,9 +210,9 @@ const page = () => {
               haben. Sie sind aber trotzdem gefährlich, da sie die Umgebung
               verseuchen und so viele Menschen töten können.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   6
-                </a>
+                </Link>
               </sup>
             </p>
           </motion.div>
@@ -240,9 +240,9 @@ const page = () => {
               Kobaltbombe ist eine Massenvernichtungswaffe, da sie eine große
               Zerstörungskraft hat.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   6
-                </a>
+                </Link>
               </sup>
             </p>
           </motion.div>

@@ -54,9 +54,9 @@ const page = () => {
             da sie sie gegen Wände oder Objekte schleudern kann. Darüber hinaus
             kann die Druckwelle auch zu erheblichen Gehörschäden führen.
           <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   2
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -83,9 +83,9 @@ const page = () => {
             Verbrennungen bei Menschen verursachen und hat auch das Potenzial,
             Gebäude und andere Bauwerke durch Feuer zu zerstören.
           <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   2
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -113,9 +113,9 @@ const page = () => {
             Krebs erhöht. Zusätzlich besitzt sie die Fähigkeit, menschliche DNA
             zu verändern, was zu schwerwiegenden gesundheitlichen
             Beeinträchtigungen führen kann.<sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   2
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -142,9 +142,9 @@ const page = () => {
             Potenzial, elektronische Geräte zu zerstören und Stromausfälle zu
             verursachen.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   2
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -228,9 +228,9 @@ const page = () => {
             "Bedrohung durch Atomwaffen" zu nutzen, um ihre nationalen
             Interessen in den internationalen Beziehungen zu sichern.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   3
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -263,9 +263,9 @@ const page = () => {
             ihre Atommacht und versuchten gleichzeitig immer, nicht-nuklearen
             Staaten dies im Namen des Weltfriedens zu verwehren.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   3
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -295,9 +295,9 @@ const page = () => {
             wurde zu einem Hauptthema in den internationalen Beziehungen, und
             auch heute ist sie ein heiß diskutiertes Thema.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   3
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -325,9 +325,9 @@ const page = () => {
             verantwortlich, dass das internationale System sich fast völlig von
             dem klassischen internationalen System unterschied.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   3
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>
@@ -358,9 +358,9 @@ const page = () => {
             Schaffung eines Gleichgewichts des Schreckens in den internationalen
             Beziehungen bei.
             <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   3
-                </a>
+                </Link>
               </sup>
           </p>
         </motion.div>

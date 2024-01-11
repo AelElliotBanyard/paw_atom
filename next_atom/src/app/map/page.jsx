@@ -82,9 +82,9 @@ const page = () => {
               für wahrscheinlicher benutzt werden können, aufgrund ihrer
               geringeren Zerstörungskraft.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -128,9 +128,9 @@ const page = () => {
               Reduzierungen nur möglich sind, wenn auch die
               US-Raketenabwehrsysteme begrenzt werden.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
 
@@ -178,9 +178,9 @@ const page = () => {
               Raketen. Dies könnte China und Russland dazu bringen selbst mehr
               Investitionen zu tätigen.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -226,9 +226,9 @@ const page = () => {
               Obergrenze auf 260 Sprengköpfe zu erhöhen, was einer Steigerung um
               mehr als 40 Prozent entspricht.{" "}
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -271,9 +271,9 @@ const page = () => {
               Situationen legitimier Selbstverteidigung" als Erster Kernwaffen
               einzusetzen.{" "}
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -319,9 +319,9 @@ const page = () => {
               verschlechterter Beziehungen zwischen den USA und China schwierig
               ist.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -365,9 +365,9 @@ const page = () => {
               zwangsläufig eine Bedrohung für Pakistan darstellen und die
               Wahrscheinlichkeit eines Wettrüstens erhöhen könnten.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -410,9 +410,9 @@ const page = () => {
               Bedenken, dass Pakistan die Schwelle für den Einsatz dieser Waffen
               senken könnte.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
@@ -454,9 +454,9 @@ const page = () => {
               die Nutzung von Kernenergie zu erwerben, die, wenn umgeleitet,
               ihnen die Möglichkeit bieten könnte, Atomwaffen zu entwickeln.
               <sup>
-                <a href="/sources" className="text-blue-600 hover:underline">
+                <Link href="/sources" className="text-blue-600 hover:underline">
                   1
-                </a>
+                </Link>
               </sup>
             </p>
             <p>
